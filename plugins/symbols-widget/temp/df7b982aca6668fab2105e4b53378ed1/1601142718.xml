@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>24.81</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>23.17</Open>
+  <High>25.65</High>
+  <Low>22.8</Low>
+  <LatestClose>24.81</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>22.13</PreviousPrice>
+  <YearHigh>30.6</YearHigh>
+  <YearLow>1.47</YearLow>
+  <Volume>4177778000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>2.68</Change>
+  <ChangePercent>10.8021</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>25.65</PeriodHigh>
+  <PeriodLow>22.8</PeriodLow>
+  <CompanyName>Workhorse Group</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>72.56</LatestPrice>
+  <Ask>72.57</Ask>
+  <Bid>72.55</Bid>
+  <Open>68.19</Open>
+  <High>71.4</High>
+  <Low>68.14</Low>
+  <LatestClose>70.32</LatestClose>
+  <LatestDate>2020-08-19T16:16:39</LatestDate>
+  <PreviousPrice>70.32</PreviousPrice>
+  <YearHigh>70.32</YearHigh>
+  <YearLow>27.73</YearLow>
+  <Volume>1018882343</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>2.24</Change>
+  <ChangePercent>3.0871</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>73.485</PeriodHigh>
+  <PeriodLow>71.01</PeriodLow>
+  <CompanyName>JD.COM SP ADR-A</CompanyName>
+</LatestDataRecord>

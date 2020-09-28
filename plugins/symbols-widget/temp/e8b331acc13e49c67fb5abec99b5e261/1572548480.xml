@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>8.555</LatestPrice>
+  <Ask>8.56</Ask>
+  <Bid>8.55</Bid>
+  <Open>8.64</Open>
+  <High>8.64</High>
+  <Low>8.52</Low>
+  <LatestClose>8.54</LatestClose>
+  <LatestDate>2019-10-31T14:49:05</LatestDate>
+  <PreviousPrice>8.54</PreviousPrice>
+  <YearHigh>10.18824</YearHigh>
+  <YearLow>7.15497</YearLow>
+  <Volume>7271046.85</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>68511</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.015</Change>
+  <ChangePercent>0.17534</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>8.565</PeriodHigh>
+  <PeriodLow>8.51</PeriodLow>
+  <CompanyName>Ford Motor</CompanyName>
+</LatestDataRecord>

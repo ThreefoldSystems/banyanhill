@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>243.82</LatestPrice>
+  <Ask>243.93</Ask>
+  <Bid>243.81</Bid>
+  <Open>242.64</Open>
+  <High>247.49</High>
+  <Low>241.82</Low>
+  <LatestClose>245.57</LatestClose>
+  <LatestDate>2020-09-10T12:01:54</LatestDate>
+  <PreviousPrice>245.57</PreviousPrice>
+  <YearHigh>259.21368</YearHigh>
+  <YearLow>179.8103</YearLow>
+  <Volume>9352283</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>85476</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-1.75</Change>
+  <ChangePercent>-0.71774</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>245.87</PeriodHigh>
+  <PeriodLow>242.95</PeriodLow>
+  <CompanyName>Amgen</CompanyName>
+</LatestDataRecord>

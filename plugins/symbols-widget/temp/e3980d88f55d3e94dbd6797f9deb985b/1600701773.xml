@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>124.36</LatestPrice>
+  <Ask>124.35</Ask>
+  <Bid>124.34</Bid>
+  <Open>129.5</Open>
+  <High>130.79</High>
+  <Low>128.1201</Low>
+  <LatestClose>128.63</LatestClose>
+  <LatestDate>2020-09-21T11:11:56</LatestDate>
+  <PreviousPrice>128.63</PreviousPrice>
+  <YearHigh>150.73689</YearHigh>
+  <YearLow>85.76</YearLow>
+  <Volume>46066817</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>116994</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-4.27</Change>
+  <ChangePercent>-3.43358</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>125.93</PeriodHigh>
+  <PeriodLow>123.71</PeriodLow>
+  <CompanyName>Walt Disney</CompanyName>
+</LatestDataRecord>

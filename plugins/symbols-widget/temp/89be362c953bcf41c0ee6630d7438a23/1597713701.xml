@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>23.45</LatestPrice>
+  <Ask>23.48</Ask>
+  <Bid>23.49</Bid>
+  <Open>23.58</Open>
+  <High>23.82</High>
+  <Low>22.67</Low>
+  <LatestClose>23.45</LatestClose>
+  <LatestDate>2020-08-17T00:00:00</LatestDate>
+  <PreviousPrice>23.4</PreviousPrice>
+  <YearHigh>56.18618</YearHigh>
+  <YearLow>11.51</YearLow>
+  <Volume>955950400</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>11176</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.05</Change>
+  <ChangePercent>0.21322</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>23.82</PeriodHigh>
+  <PeriodLow>22.67</PeriodLow>
+  <CompanyName>Kohl's</CompanyName>
+</LatestDataRecord>

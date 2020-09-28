@@ -1,0 +1,22 @@
+.tfs_css_warning {
+  background-color: orange;
+  color: white;
+  line-height: 7px;
+  padding: 11px;
+  border-radius: 0 0 5px 5px;
+}
+#tfs_meta_subscription_box p {
+  margin-bottom: 20px;
+}
+.tfs_description_red {
+  color: red;
+}
+.tfs_subscription_renewal_price_span {
+  position:relative;
+  margin-right:-20px
+}
+#tfs_subscription_renewal_price, #tfs_subscription_renewal_savings {
+  padding-left:20px;
+  text-align:left;
+  margin-left: 5px;
+}

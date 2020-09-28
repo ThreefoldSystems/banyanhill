@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>60.9</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>60.76</Open>
+  <High>61.96</High>
+  <Low>60.375</Low>
+  <LatestClose>60.9</LatestClose>
+  <LatestDate>2020-08-27T00:00:00</LatestDate>
+  <PreviousPrice>60.77</PreviousPrice>
+  <YearHigh>90.58005</YearHigh>
+  <YearLow>43.49476</YearLow>
+  <Volume>874979700</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>98935</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.13</Change>
+  <ChangePercent>0.21346</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>61.96</PeriodHigh>
+  <PeriodLow>60.375</PeriodLow>
+  <CompanyName>Raytheon Tech</CompanyName>
+</LatestDataRecord>

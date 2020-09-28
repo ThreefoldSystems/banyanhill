@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>7.3</LatestPrice>
+  <Ask>7.28</Ask>
+  <Bid>7.3</Bid>
+  <Open>6.9726</Open>
+  <High>7.34</High>
+  <Low>6.9</Low>
+  <LatestClose>7.3</LatestClose>
+  <LatestDate>2020-08-28T00:00:00</LatestDate>
+  <PreviousPrice>7.07</PreviousPrice>
+  <YearHigh>12.6</YearHigh>
+  <YearLow>1.31</YearLow>
+  <Volume>234799000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>73</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.23</Change>
+  <ChangePercent>3.15068</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>7.34</PeriodHigh>
+  <PeriodLow>6.9</PeriodLow>
+  <CompanyName>BLINK CHARGING</CompanyName>
+</LatestDataRecord>

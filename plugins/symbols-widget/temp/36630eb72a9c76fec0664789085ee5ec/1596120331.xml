@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>681.24</LatestPrice>
+  <Ask>681.95</Ask>
+  <Bid>680.52</Bid>
+  <Open>682.72</Open>
+  <High>704</High>
+  <Low>680.005</Low>
+  <LatestClose>695.79</LatestClose>
+  <LatestDate>2020-07-30T10:31:27</LatestDate>
+  <PreviousPrice>695.79</PreviousPrice>
+  <YearHigh>695.78998</YearHigh>
+  <YearLow>367.75</YearLow>
+  <Volume>728672</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>14799</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-14.55</Change>
+  <ChangePercent>-2.13581</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>687.99</PeriodHigh>
+  <PeriodLow>681.24</PeriodLow>
+  <CompanyName>Intuitive Surgic</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>293.66</LatestPrice>
+  <Ask>293.5</Ask>
+  <Bid>293.52</Bid>
+  <Open>295</Open>
+  <High>297.23</High>
+  <Low>290.98</Low>
+  <LatestClose>293.66</LatestClose>
+  <LatestDate>2020-08-28T00:00:00</LatestDate>
+  <PreviousPrice>293.22</PreviousPrice>
+  <YearHigh>303.91</YearHigh>
+  <YearLow>146.00999</YearLow>
+  <Volume>1717241500</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>108981</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.44</Change>
+  <ChangePercent>0.14983</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>297.23</PeriodHigh>
+  <PeriodLow>290.98</PeriodLow>
+  <CompanyName>Facebook-A</CompanyName>
+</LatestDataRecord>

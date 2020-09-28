@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>44.86</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>45.52</Open>
+  <High>45.96</High>
+  <Low>44.755</Low>
+  <LatestClose>44.86</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>45.53</PreviousPrice>
+  <YearHigh>79.70869</YearHigh>
+  <YearLow>34.66724</YearLow>
+  <Volume>3309461200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>152842</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.67</Change>
+  <ChangePercent>-1.49354</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>45.96</PeriodHigh>
+  <PeriodLow>44.755</PeriodLow>
+  <CompanyName>Citigroup</CompanyName>
+</LatestDataRecord>

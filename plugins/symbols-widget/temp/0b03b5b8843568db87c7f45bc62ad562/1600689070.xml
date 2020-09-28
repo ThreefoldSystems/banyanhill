@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>901.34</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>883.99</Open>
+  <High>908.37</High>
+  <Low>866.8459</Low>
+  <LatestClose>901.34</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>870.76</PreviousPrice>
+  <YearHigh>1134.31995</YearHigh>
+  <YearLow>285.75</YearLow>
+  <Volume>243746100</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>30.58</Change>
+  <ChangePercent>3.39273</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>908.37</PeriodHigh>
+  <PeriodLow>866.8459</PeriodLow>
+  <CompanyName>Shopify SVtg-A</CompanyName>
+</LatestDataRecord>

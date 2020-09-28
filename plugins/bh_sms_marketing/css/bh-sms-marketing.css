@@ -1,0 +1,182 @@
+#bh-sms-marketing {
+  border-radius: inherit;
+  max-width: 625px;
+  padding: 43px 43px 23px 43px;
+}
+
+#bh-sms-marketing > .close-modal {
+  display:none;
+}
+
+#bh-sms-marketing-logo {
+  width:100%;
+  height:100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#bh-sms-marketing-header {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#bh-sms-marketing .bh-sms-marketing-input {
+  width: 100%;
+  border: 0px;
+  border-radius: inherit;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bh-sms-marketing-input-icon {
+  color: #B4B4B4;
+  font-size: 35px;
+  padding: 9px;
+}
+
+.bh-sms-marketing-input-wrapper {
+  border: 1px solid #B4B4B4;
+  display:flex;
+  margin-bottom: 20px;
+}
+
+#bh-sms-marketing-submit {
+  padding: 13px;
+  background-color: #FF7300;
+  border: 1px solid #ffa200;
+  color:white;
+  border-radius:inherit;
+  width:100%;
+  margin-bottom:20px;
+  margin-top:10px;
+  font-size: 25px;
+}
+
+#bh-sms-marketing-input-icon-cell {
+  padding-right:17px;
+}
+
+#bh-sms-marketing-disclaimer-wrapper {
+  /*
+  margin-left: -30px;
+  margin-right: -30px;
+  margin-bottom: -15px;
+  */
+  background-color: #DEDEDE;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  padding: 15px;
+}
+
+#bh-sms-marketing-optin-container {
+  display: block;
+  position: relative;
+  padding-left: 18px;
+  margin-left: -2px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#bh-sms-marketing-optin-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+#bh-sms-marketing-optin-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  width: 14px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+}
+
+#bh-sms-marketing-optin-container:hover input ~ #bh-sms-marketing-optin-checkmark {
+  background-color: #d3d3d3;
+}
+
+#bh-sms-marketing-optin-container input:checked ~ #bh-sms-marketing-optin-checkmark {
+}
+
+#bh-sms-marketing-optin-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+#bh-sms-marketing-optin-container input:checked ~ #bh-sms-marketing-optin-checkmark:after {
+  display: block;
+}
+
+#bh-sms-marketing-optin-container #bh-sms-marketing-optin-checkmark:after {
+  left: 4px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#bh-sms-marketing-error {
+  text-align:center;
+  margin-bottom: 20px;
+  border: 1px solid #fce303;
+  padding: 5px;
+  font-size: 15px;
+  background: #ebc634;
+  color: #000;
+}
+
+#bh-sms-marketing-thank-you-header {
+  text-align:center;
+  border-top: 1px solid #d3d3d3;
+  padding-top: 25px;
+}
+
+#bh-sms-marketing-thank-you-sub-header {
+  text-align:center;
+}
+
+#bh-sms-marketing-thank-you-redirect {
+  text-align:center;
+}
+
+#bh-sms-marketing-featured-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  background-size: contain;
+  float: left;
+  width: 150px;
+  margin-right: 5px;
+}
+
+#bh-sms-marketing-disclaimer-wrapper a {
+  text-decoration: underline;
+}
+
+@media all and (max-width: 479px) {
+	#bh-sms-marketing-logo {
+	  height:50px;
+	}
+	#bh-sms-marketing {
+      padding: 27px 27px 12px 27px;
+	}
+}

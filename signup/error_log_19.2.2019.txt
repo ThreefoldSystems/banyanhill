@@ -1,0 +1,212 @@
+{
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "renop@naples.net",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165972283562378",
+			"firstName": "Ren",
+			"lastName": "Morani",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Zantegreece@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165973203562286",
+			"firstName": "Tony",
+			"lastName": "Zarkades",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "cherylbradley111@yahoo.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165974120228861",
+			"firstName": "Cheryl",
+			"lastName": "Bradley",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "skincaidwagner.68@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165978363561770",
+			"firstName": "Shirley",
+			"lastName": "Wagner",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "dannyharris678@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "380417859439977",
+			"firstName": "Danny",
+			"lastName": "Harris",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Clairwitkowski984@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "760284337704683",
+			"firstName": "Clair",
+			"lastName": "Witkowski",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "flgatorsfan2016@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "380418839439879",
+			"firstName": "Charel",
+			"lastName": "Greggs",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "ribitribt62@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "380419309439832",
+			"firstName": "Margaret",
+			"lastName": "Barnum",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Sandy_arrow10@yahoo.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "760286064371177",
+			"firstName": "Sandra",
+			"lastName": "Muehlbauer",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "kashflownmexico@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "380420642773032",
+			"firstName": "Michael",
+			"lastName": "King",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Hholman1@yahoo.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "693923514336102",
+			"firstName": "H",
+			"lastName": "Holman",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Eskimofellow@yahoo.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "760288757704241",
+			"firstName": "Wilson",
+			"lastName": "Angnabooguk",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "pottersherry588@gmail.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "760289577704159",
+			"firstName": "Sherry",
+			"lastName": "Potter",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Chkbun2win@aol.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165987573560849",
+			"firstName": "Bunny",
+			"lastName": "Winter",
+			"middleInitial": ""
+		}
+	}
+} {
+	"status": "UNPROCESSABLE_ENTITY",
+	"message": "Error parsing JSON in HTTP request body",
+	"data": {
+		"signup": {
+			"listCode": "SIWARMIP",
+			"emailAddress": "Tonyprickelmyer@yahoo.com",
+			"sourceId": "X190V222",
+			"referenceNumber": "1165988080227465",
+			"firstName": "Tony",
+			"lastName": "Prickelmyer",
+			"middleInitial": ""
+		}
+	}
+}
+{"status":"UNPROCESSABLE_ENTITY","message":"An error occurred while trying to process this signup.","data":{"signup":{"listCode":"SIWARMIP","emailAddress":"mtealey0@gnail.com","sourceId":"X190V222","referenceNumber":"345839572930487","firstName":"Tommy","lastName":"Ealey","middleInitial":""}}}{"status":"UNPROCESSABLE_ENTITY","message":"An error occurred while trying to process this signup.","data":{"signup":{"listCode":"SIWARMIP","emailAddress":"serenamcdowell@yaho.com","sourceId":"X190V222","referenceNumber":"387609335150549","firstName":"Serena","lastName":"Mcdowell","middleInitial":""}}}

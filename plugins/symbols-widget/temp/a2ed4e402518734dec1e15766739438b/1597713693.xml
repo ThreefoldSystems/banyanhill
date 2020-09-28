@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>97.13</LatestPrice>
+  <Ask>97.01</Ask>
+  <Bid>97.03</Bid>
+  <Open>96.12</Open>
+  <High>97.56</High>
+  <Low>95.12</Low>
+  <LatestClose>97.13</LatestClose>
+  <LatestDate>2020-08-17T00:00:00</LatestDate>
+  <PreviousPrice>94.06</PreviousPrice>
+  <YearHigh>123.42989</YearHigh>
+  <YearLow>59.97</YearLow>
+  <Volume>310196000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>15248</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>3.07</Change>
+  <ChangePercent>3.16071</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>97.56</PeriodHigh>
+  <PeriodLow>95.12</PeriodLow>
+  <CompanyName>Ross Stores</CompanyName>
+</LatestDataRecord>

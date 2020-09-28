@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>97.73</LatestPrice>
+  <Ask>97.59</Ask>
+  <Bid>97.7</Bid>
+  <Open>90.7573</Open>
+  <High>98.48</High>
+  <Low>90.5</Low>
+  <LatestClose>97.73</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>88.56</PreviousPrice>
+  <YearHigh>97.73</YearHigh>
+  <YearLow>19.51</YearLow>
+  <Volume>4586601300</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>9.17</Change>
+  <ChangePercent>9.38299</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>98.48</PeriodHigh>
+  <PeriodLow>90.5</PeriodLow>
+  <CompanyName>PELOTON INTERA-A</CompanyName>
+</LatestDataRecord>

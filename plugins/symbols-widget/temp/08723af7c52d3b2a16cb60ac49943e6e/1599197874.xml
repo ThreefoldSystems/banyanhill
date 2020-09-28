@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>166.31</LatestPrice>
+  <Ask>166.25</Ask>
+  <Bid>166.33</Bid>
+  <Open>170</Open>
+  <High>170.42</High>
+  <Low>164.99</Low>
+  <LatestClose>166.31</LatestClose>
+  <LatestDate>2020-09-03T00:00:00</LatestDate>
+  <PreviousPrice>169.51</PreviousPrice>
+  <YearHigh>176.3717</YearHigh>
+  <YearLow>115.65965</YearLow>
+  <Volume>348128900</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>80786</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-3.2</Change>
+  <ChangePercent>-1.92412</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>170.42</PeriodHigh>
+  <PeriodLow>164.99</PeriodLow>
+  <CompanyName>3M</CompanyName>
+</LatestDataRecord>

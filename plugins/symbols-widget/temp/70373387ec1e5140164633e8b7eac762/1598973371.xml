@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>21.475</LatestPrice>
+  <Ask>21.51</Ask>
+  <Bid>21.44</Bid>
+  <Open>21.62</Open>
+  <High>21.65</High>
+  <Low>20.63</Low>
+  <LatestClose>21.36</LatestClose>
+  <LatestDate>2020-09-01T11:01:42</LatestDate>
+  <PreviousPrice>21.36</PreviousPrice>
+  <YearHigh>23.19</YearHigh>
+  <YearLow>5.72</YearLow>
+  <Volume>151376</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>243</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.115</Change>
+  <ChangePercent>0.53551</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>21.53</PeriodHigh>
+  <PeriodLow>21.12</PeriodLow>
+  <CompanyName>TRAVLCENTER AMER</CompanyName>
+</LatestDataRecord>

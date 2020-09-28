@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>67.71</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>67.4</Open>
+  <High>68.13</High>
+  <Low>67.14</Low>
+  <LatestClose>67.71</LatestClose>
+  <LatestDate>2017-05-18T00:00:00</LatestDate>
+  <PreviousPrice>67.48</PreviousPrice>
+  <YearHigh>69.41</YearHigh>
+  <YearLow>47.24815</YearLow>
+  <Volume>25201200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>272306</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.23</Change>
+  <ChangePercent>0.33968</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>68.13</PeriodHigh>
+  <PeriodLow>67.14</PeriodLow>
+  <CompanyName>Microsoft Rg</CompanyName>
+</LatestDataRecord>

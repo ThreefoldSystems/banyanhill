@@ -1,0 +1,409 @@
+<?php
+parse_str( $_SERVER[ 'QUERY_STRING' ], $query );
+?>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="robots" content="noindex">
+	<title>BanyanHill Signup</title>
+
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0; 
+			overflow: hidden;
+			font-family: "Open Sans",sans-serif;
+		}
+		form {
+			margin: 0; 
+			padding: 0;
+		}
+		table {
+			border-collapse: collapse;
+			border-spacing: 0;
+			width: 100%;
+		}		
+		table td, table th, table tr {
+			text-align: left;
+			max-width: 100%;
+			padding: .857em;
+		}		
+		#text-21 .widget-title {
+			text-align: center;
+			background: #ebebeb;
+			border: none;
+			color: #222;
+			font-weight: bold;
+			font-size: 15px;
+			border-bottom: 2px #fff solid;
+			padding: 15px 0;
+			text-transform: inherit;
+		}
+		
+		.Newsletter_new.sidebar p {
+			font-size: 14.5px;
+			padding: 13px;
+			margin: 0;
+		}
+		
+		.Newsletter_new label {
+			display: none;
+		}		
+		
+		.Newsletter_new.sidebar h2 {
+			font-weight: bold;
+			font-size: 1.8em;
+			text-align: center;
+		}
+		
+		.Newsletter_new.sidebar .blueBG {
+			color: #777777;
+			padding: 4px;
+			margin: 10px;
+			text-align: center;
+			font-size: 15px;
+			font-weight: bold;
+		}
+		
+		.Newsletter_new.sidebar .footerTxt {
+			color: #939598;
+			text-align: center;
+			padding: 15px 8px;
+			line-height: 17px;
+		}
+		
+		.Newsletter_new input[type="text"] {
+			width: 100%;
+			height: 40px;
+			text-align: center;
+			padding: 0;
+			font-size: 1.05em;
+			color: #222;
+			border: 1px solid #ccc;
+		}		
+		
+		.Newsletter_new input[type="submit"] {
+			background: rgb(255,102,0);
+			background: -moz-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(229,91,0,1) 100%);
+			background: -webkit-linear-gradient(top, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+			background: linear-gradient(to bottom, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#e55b00',GradientType=0 );
+			color: #fff;
+			font-size: 18px;
+			font-weight: 500;
+			border: none;
+			padding: 10px 7px;
+			text-align: center;
+			border-radius: 0;
+			box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+			text-transform: uppercase;
+			cursor: pointer;
+			width: 100%;
+			letter-spacing: 1px;
+			margin: 0;
+		}
+		.Newsletter_new.well .form-field-container, .Newsletter_new.footer .form-field-container {
+			display: flex;
+			flex-flow: row wrap;
+			width: 100%;
+			margin-bottom: 10px;
+			justify-content: center;
+			align-items: center;			
+		}		
+		.Newsletter_new.well .form-field-table, .Newsletter_new.footer .form-field-table {
+			border: none;
+			width: 65%;
+			margin: auto;
+		}
+		.Newsletter_new.footer table td {
+			padding: .857em .857em .857em 0;
+		}		
+		.errorContainer {
+			font-size: 14px;
+			font-style: italic;
+			color: #FF0000;
+			transition: all 0.5s ease;
+			padding: 0 15px;
+		}
+		.Newsletter_new.well .errorContainer, .Newsletter_new.footer .errorContainer {
+			flex: 0 0 100%;
+		}
+		.Newsletter-signup-submit {
+			padding: 0 .875em .875em .875em;
+			flex: 1;
+		}	
+		.Newsletter_new.well .Newsletter-signup-submit, .Newsletter_new.footer .Newsletter-signup-submit {
+			padding: .875em;
+			flex: 1;
+		}		
+		.errorContainer > div {
+			display: none;
+		}
+		.footer-signup-form-email {
+			padding: 5px;
+			margin: 0 5px;
+		}
+		.well-signup-form-email {
+			border: 1px solid rgba(0,0,0,0.2);
+			background: rgba(255,255,255,.9);
+			font-size: 15px;
+		}		
+		.Newsletter_new.WID {
+			background: #fff !important;
+		}
+		.Newsletter_new.WID input#email {
+			width: 335px;
+			height: 60px;
+			border-style: solid;
+			border-color: #dddddd;
+			border-width: 1px;
+			border-radius: 4px;
+			padding: 15px;
+			font-size: 16px;
+		}
+		.Newsletter_new.WID .Newsletter-signup-submit input {
+			width: 335px !important;
+			height: 60px;
+			background-color: #3dbcc4;
+			border-style: solid;
+			border-color: #dddddd;
+			border-width: 1px;
+			border-radius: 4px;
+			font-family: helvetica;
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			font-size: 20px;
+			font-weight: normal;
+			cursor: pointer;
+			color: #fff;
+			margin-bottom: 20px;
+		}
+		.Newsletter_new.WID .Newsletter-signup-submit input:hover {
+			background-color: #2fa5ac;
+			border-color: #bdbdbd;
+		}
+		.Newsletter_new.WID .Newsletter-signup-submit::after {
+			content: "\A 100% FREE - Sign Me Up!";
+			white-space: pre;
+			font-size: 16px;
+			font-style: italic;
+			text-align: center;
+		}
+
+		@media (max-width: 576px) {
+			.Newsletter_new.WID input#email {
+				width: 300px !important;
+			}
+			.Newsletter_new.WID .Newsletter-signup-submit input {
+				width: 100% !important;
+				margin-bottom: 0px;
+			}
+			.Newsletter_new.well .form-field-table, .Newsletter_new.footer .form-field-table {
+				width: 100%;
+			}
+			.Newsletter_new.well .Newsletter-signup-submit, .Newsletter_new.footer .Newsletter-signup-submit {
+				padding: 0 .875em;
+			}
+		}		
+	</style>
+</head>
+
+<body>
+	<form id="LeadGen" class="LeadGen Newsletter_new <?php echo $query['position'] ?>" action="https://research.banyanhill.com/Content/SaveFreeSignups" method="post">
+		<input name="source" type="hidden" value="<?php echo $query['xcode'] ? $query['xcode'] : 'X190T276' ?>"/>
+		<input style="display: none;" name="CoRegs" type="checkbox" value="172279" checked="true"/>
+		<input style="display: none;" name="CoRegs" type="checkbox" value="233106" checked="true"/>
+		<input name="NotSaveSignup" type="hidden" value="False"/>
+		<div align="center" class="form-field-container">
+			<div class="errorContainer">
+				<div id="errorMsg1"></div>
+				<div id="errorMsg2"></div>			
+			</div>
+			<table class="form-field-table" cellpadding="5" cellspacing="0" style="border:none;">
+				<tbody>
+					<tr style="border:none">
+						<td align="right" style="border:none;">
+							<label for="email" id="emailLabel" style="">Email:</label>
+							<input class="<?php echo $query['position'] ?>-signup-form-email" id="email" maxlength="255" name="email" onblur="javascript:if (this.value == '') this.value = '';" onfocus="javascript:if (this.value == '') this.value = '';" type="text" value="" placeholder="<?php echo $query['emailtext'] ? $query['emailtext'] : 'Enter Your Email Address' ?>"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="Newsletter-signup-submit">
+				<input id="<?php echo $query['position'] ?>-signup-form-submit" type="submit" value="<?php echo $query['buttontext'] ? $query['buttontext'] : 'Join Now' ?>"/>
+			</div>
+		</div>
+	</form>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		var parentContainer = window.frameElement.parentNode;
+
+		function getAbsoluteHeight( el ) {
+			// Get the DOM Node if a string is passed
+			el = ( typeof el === 'string' ) ? document.querySelector( el ) : el;
+
+			var styles = window.getComputedStyle( el );
+			var margin = parseFloat( styles[ 'marginTop' ] ) +
+						 parseFloat( styles[ 'marginBottom' ] );
+
+			return el.offsetHeight + margin;
+		}
+
+		function resizeFrame() {
+			parentContainer.getElementsByTagName( 'iframe' )[ 0 ].setAttribute( 'height', getAbsoluteHeight( '.LeadGen' ) );
+		}
+
+		// Resize Frame to Content Size
+		parentContainer.getElementsByTagName( 'iframe' )[ 0 ].setAttribute( 'width', '100%' );
+		window.onload = function () {
+			resizeFrame();
+		}
+		window.onresize = function () {
+			resizeFrame();
+		}
+		window.onorientationchange = function () {
+			resizeFrame();
+		}
+
+		$(document).ready(function () { 
+			// Initiate form submission. 
+			$('#<?php echo $query['position'] ?>-signup-form-submit').click(function (e) { 
+				// Prevent form submission. 
+				e.preventDefault(); 
+				var email = $('#email').val(); // Set email address. 
+				var options = { }; // Set options. [optional] 
+				var callback = function(x) {
+					// do nothing
+				}
+			if (email === '') return;
+
+				// Send request to FreshAddress. 
+				FreshAddress.validateEmail(email, options, callback).then(function (x) { 
+
+					// Custom function with logic to process results as desired. 
+					// See page 7 for example.
+					var formResult = processValidation(x); 
+
+					// Logic to handle form action and manipulation.
+					// See page 8 for example. 
+					nextAction(formResult);
+				}); 
+			});
+			
+			$('#email').on('focus', function(){
+				$('.errorContainer > div').slideUp(250, function() {
+					resizeFrame();
+				});
+			});
+		});	
+		
+		/** 
+		* Custom Function to process FreshAddress validation results. 
+		* @param x – Friendly response object returned by FreshAddress.validateEmail 
+		*/ 
+		function processValidation(x) { 
+			/* Sample custom return object which can be used to control form behavior [optional] */ 
+			var formResult = { 
+				passedValidation: false, // default false, prevent form submission 
+				userMessage1: '', // store message to user 
+				userMessage2: '' // store message to user 
+			}; 
+
+			/* ERROR HANDLING: Let through in case of a service error. Enable form submission. */ 
+			if (x.isServiceError()) {
+				formResult.passedValidation = false; 
+				formResult.userMessage1 = x.getServiceError();
+				//formResult.passedValidation = true; // Enable form submission 
+				return formResult; // Return custom response object. 
+			} 
+
+			/* CHECK RESULT: */ 
+			if (x.isValid()) { 
+
+				/* Check if is suggestion available */ 
+				if (x.hasSuggest()) { 
+					// Valid, with Suggestion: Provide opportunity for user to correct. 
+					formResult.userMessage1 = 'We may have detected a typo.'; 
+					formResult.userMessage2 = '- Did you mean to type ' + x.getSuggEmail() + '?'; 
+				} else { 
+					// Valid, No Suggestion: Enable form submission. 
+					formResult.passedValidation = true; 
+				} 
+			} else if (x.isError() || x.isWarning()) { 
+
+				/* Check for Suggestion */ 
+				if (x.hasSuggest()) { 
+					// Set response message. Provide opportunity for user to correct. 
+					formResult.userMessage1 = x.getErrorResponse() + '.'; 
+					formResult.userMessage2 = '- Did you mean to type ' + x.getSuggEmail() + '?'; 
+				} else { 
+					// Set response message. Provide opportunity for user to correct. 
+					formResult.userMessage1 = x.getErrorResponse() + '.'; 
+				} 
+			} else { 
+				// Error Condition 2 - the service should always respond with finding E/W/V 
+				formResult.passedValidation = true; 
+			} 
+			return formResult; // Return custom response object. 
+		}
+
+		/** 
+		* Custom Function to control page action based on findings. 
+		* @param formResult – Custom response object to determine form action. Returned by processValidation. 
+		*/ 
+
+		function nextAction(formResult) { 
+
+			/* Check result is valid / form submission is active */ 
+			if (formResult.passedValidation == true) { 
+				// Collect form data for POST 
+				var url = $('#LeadGen').attr('action');
+				
+				var data = $('#LeadGen').serialize(); 
+
+				// Optional: Add information to include in POST on form submission to assist with logging. 
+				//data += "&" + jQuery.param({ source: "demo-basic" }); 
+
+				// User created function to submit form. 
+				// ID Resolution for Lytics
+				if (typeof parent.jstag === 'object' && typeof parent.jstag.getid === 'function') {
+					var subscriberMetaData = {email: $('#email').val()};
+
+					parent.jstag.send(subscriberMetaData);			  				  
+				}
+				// End ID Resolution			
+				submitTheForm(url, data); 
+			} else { 
+				// Set & display responses to user
+				// alert(formResult.userMessage1 + '\n' + formResult.userMessage2);
+				$('#errorMsg1').html(formResult.userMessage1).slideDown(250, function() {
+					resizeFrame();
+				}); 
+				$('#errorMsg2').html(formResult.userMessage2).slideDown(250, function() {
+					resizeFrame();
+				});
+			} 
+		} 
+
+		/** 
+		* Sample Custom Function to demonstrate form submission with extra fields. 
+		* @param url – URL for where to send email. * @param data – Data for which to post. 
+		*/ 
+
+		function submitTheForm(url, data) { 
+			// Check & Set zCode if set (by GTM)
+			// If not set by GTM, store form source as zCode
+			if (sessionStorage.getItem('zCode') !== null) {
+				$('#LeadGen input[name="source"]').val(sessionStorage.getItem('zCode'));
+			} else {
+				sessionStorage.setItem('zCode', $('#LeadGen input[name="source"]').val());
+			}	
+			$('#LeadGen').submit();
+		}
+	</script>
+	<script src="https://banyanhillwebassets.s3.amazonaws.com/banyanhill_live/scripts/freshaddress-client-7.2.js?token=a81a000a6259c9f211958d55a2c0930d681bc5c3c7d75110d44ba4765048a9445634c41803872d15c4ce757124413fb2"></script>
+</body>
+</html>

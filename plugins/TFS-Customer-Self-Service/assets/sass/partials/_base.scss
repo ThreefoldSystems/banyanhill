@@ -1,0 +1,77 @@
+// Grid
+.tfs_1_4 {
+  width: 24.9%;
+  float: left;
+}
+
+.tfs_2_4 {
+  width: 49.9%;
+  float: left;
+}
+.tfs_3_4 {
+  float: left;
+  width: 74.9%;
+}
+.tfs_4_4 {
+  float: left;
+  width: 100%;
+}
+
+#tfs_css_body {
+  // Elements
+  h2 {
+    font-size: 19px;
+    line-height: 25px;
+    color: $grey;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  h3 {
+    font-size: 17px;
+    line-height: 22px;
+    color: $grey;
+    padding: 0;
+    margin: 0;
+  }
+
+  h4 {
+    font-size: $general_fontsize;
+    line-height: 17px;
+    color: $grey;
+    padding: 0;
+    margin: 0;
+  }
+
+  p {
+    font-size: $general_fontsize;
+    line-height: 19px;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none !important;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .tfs_center_button {
+    margin: 20px auto;
+    text-align: center;
+  }
+  .tfs_css_account_landing {
+    p {
+      margin: 20px 0;
+    }
+  }
+}
+
+.input-blured{
+  display: block;
+  max-width: 40%;
+  width: 212px;
+  position: absolute;
+  font-size: 1em;
+}

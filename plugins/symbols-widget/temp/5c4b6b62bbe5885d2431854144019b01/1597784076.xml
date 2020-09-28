@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>43.43</LatestPrice>
+  <Ask>43.46</Ask>
+  <Bid>43.44</Bid>
+  <Open>42.3</Open>
+  <High>43.14</High>
+  <Low>41.89</Low>
+  <LatestClose>42.77</LatestClose>
+  <LatestDate>2020-08-18T16:16:53</LatestDate>
+  <PreviousPrice>42.77</PreviousPrice>
+  <YearHigh>42.77</YearHigh>
+  <YearLow>19.26</YearLow>
+  <Volume>121582927</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.66</Change>
+  <ChangePercent>1.51969</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>44.13</PeriodHigh>
+  <PeriodLow>42.945</PeriodLow>
+  <CompanyName>BJ WHSL CL HLDG</CompanyName>
+</LatestDataRecord>

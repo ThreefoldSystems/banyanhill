@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>1634.33</LatestPrice>
+  <Ask>1635.48</Ask>
+  <Bid>1635.83</Bid>
+  <Open>1653.68</Open>
+  <High>1655</High>
+  <Low>1625.75</Low>
+  <LatestClose>1634.33</LatestClose>
+  <LatestDate>2020-08-27T00:00:00</LatestDate>
+  <PreviousPrice>1652.38</PreviousPrice>
+  <YearHigh>1652.38</YearHigh>
+  <YearLow>1056.62</YearLow>
+  <Volume>185958500</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-18.05</Change>
+  <ChangePercent>-1.10443</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>1655</PeriodHigh>
+  <PeriodLow>1625.75</PeriodLow>
+  <CompanyName>Alphab-C-NV</CompanyName>
+</LatestDataRecord>

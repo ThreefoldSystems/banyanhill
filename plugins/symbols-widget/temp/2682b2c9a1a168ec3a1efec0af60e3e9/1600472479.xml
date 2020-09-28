@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>30.88</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>31.3</Open>
+  <High>31.3</High>
+  <Low>30.7</Low>
+  <LatestClose>30.88</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>31.57</PreviousPrice>
+  <YearHigh>33.12</YearHigh>
+  <YearLow>12.74558</YearLow>
+  <Volume>30480800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>79807</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.69</Change>
+  <ChangePercent>-2.23446</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>31.3</PeriodHigh>
+  <PeriodLow>30.7</PeriodLow>
+  <CompanyName>SoftBk Grp Unsp ADR</CompanyName>
+</LatestDataRecord>

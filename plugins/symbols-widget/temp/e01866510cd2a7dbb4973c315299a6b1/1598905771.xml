@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>294.63</LatestPrice>
+  <Ask>295.09</Ask>
+  <Bid>294.78</Bid>
+  <Open>294</Open>
+  <High>301.76</High>
+  <Low>290.51</Low>
+  <LatestClose>291.97</LatestClose>
+  <LatestDate>2020-08-31T16:17:01</LatestDate>
+  <PreviousPrice>291.97</PreviousPrice>
+  <YearHigh>309.59</YearHigh>
+  <YearLow>81.5</YearLow>
+  <Volume>16740045</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>2.66</Change>
+  <ChangePercent>0.90283</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>298.34</PeriodHigh>
+  <PeriodLow>293.87</PeriodLow>
+  <CompanyName>Wix.com</CompanyName>
+</LatestDataRecord>

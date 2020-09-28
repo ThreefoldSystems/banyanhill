@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>7.61</LatestPrice>
+  <Ask>7.6</Ask>
+  <Bid>7.61</Bid>
+  <Open>7.08</Open>
+  <High>7.98</High>
+  <Low>7.07</Low>
+  <LatestClose>7.61</LatestClose>
+  <LatestDate>2020-09-03T00:00:00</LatestDate>
+  <PreviousPrice>7.05</PreviousPrice>
+  <YearHigh>17.38</YearHigh>
+  <YearLow>4.43</YearLow>
+  <Volume>8057210600</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>16378</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.56</Change>
+  <ChangePercent>7.35874</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>7.98</PeriodHigh>
+  <PeriodLow>7.07</PeriodLow>
+  <CompanyName>Macy's</CompanyName>
+</LatestDataRecord>

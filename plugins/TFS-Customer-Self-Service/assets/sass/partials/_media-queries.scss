@@ -1,0 +1,179 @@
+@media only screen and (max-width: 780px) {
+  #tfs_css_body {
+    #tfs_css_header {
+      background-image: url(#{$plugin_location}menu.svg);
+      background-repeat: no-repeat;
+      background-size: 28px;
+      background-position: 9px 9px;
+      background-position-y: 8px;
+      background-position-x: 15px;
+      text-align: center;
+      &:hover {
+        cursor: pointer
+      }
+    }
+    #tfs_css_menu{
+      width: 100% !important;
+      text-align: center !important;
+      .tfs_1_4{
+        width: 100% !important;
+        text-align: center;
+      }
+    }
+    #tfs_css_content {
+      border-left: none;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    article {
+      .post_image {
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+        min-height: 0;
+        img{
+          max-height: 300px;
+          width: auto;
+        }
+      }
+    }
+    ul {
+      li {
+        width: 100% !important;
+        display: table;
+        background-image: none;
+        list-style-type: none;
+      }
+    }
+    #tfs_css_tabs {
+      margin: 0;
+      padding: 0;
+      margin-bottom: 20px;
+      min-height: 34px;
+      padding-top: 11px;
+      li {
+        padding-left: 0;
+        background-image: none;
+        list-style-type: none;
+      }
+      .submenu {
+        ul {
+          li {
+            padding-left: 0 !important;
+            background-image: none;
+            list-style-type: none;
+          }
+        }
+      }
+    }
+
+    .tfsChgAddr {
+      li {
+        margin: 0;
+        padding: 1px;
+        display: table;
+        width: 100%;
+        background-image: none;
+        list-style-type: none;
+      }
+      input {
+        float: right;
+        width: 95%;
+        display: table-header-group;
+        margin-right: 0 !important;
+      }
+      select {
+        width: 95%;
+        margin: 0;
+      }
+      #tfs_css_state {
+        width: 100%;
+        float: left;
+      }
+    }
+    .tfs_css_subs_ul {
+      .css_buy {
+        button {
+          float: right;
+        }
+      }
+      li {
+        margin: 0;
+        background-image: none;
+        list-style-type: none;
+      }
+      .wide {
+        float: left;
+      }
+    }
+    .success {
+      background-color: $green;
+    }
+    #tfs_css_my_subscriptions, #tfs_css_my_listings{
+      margin-top: 15px;
+      article{
+        .subs_content{
+          padding: 10px 0;
+        }
+      }
+    }
+
+    .username_wrap {
+      display: block;
+    }
+  } // close css body
+
+  //full width grid
+  .tfs_4_4 {
+    width: 98%!important;
+  }
+  //popup
+  .featherlight{
+    .featherlight-content{
+      width: 96%;
+    }
+  }
+  // Change Email Address for Mobile
+  .tfs_css_change_email_address_container {
+    .tfs_2_4 {
+      width: 97% !important;
+      margin-top: 20px !important;
+    }
+    .info_box {
+      width: 100%;
+      margin-top: 20px !important;
+      text-align: left;
+    }
+  }
+
+  .tfs_css_chg_all {
+    .tfs_css_success_msg {
+      height: 100px;
+    }
+    .succes_addr_msg {
+      margin-bottom: 16px !important;
+    }
+    h2 {
+      margin-top: -9px !important;
+      text-align: left !important;
+      font-size: 18px !important;
+      margin-bottom: -3px !important;
+    }
+    .chg_mail {
+      li {
+        padding: 11px 1px 9px !important;
+        background-image: none;
+        list-style-type: none;
+        label {
+          font-size: 20px !important;
+          p {
+            font-size: 14px !important;
+          }
+        }
+      }
+    }
+  }
+} //close media query
+
+

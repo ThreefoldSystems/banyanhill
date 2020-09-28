@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>229</LatestPrice>
+  <Ask>229</Ask>
+  <Bid>229.69</Bid>
+  <Open>228.12</Open>
+  <High>236.26</High>
+  <Low>227.9001</Low>
+  <LatestClose>229</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>226.74</PreviousPrice>
+  <YearHigh>253.92999</YearHigh>
+  <YearLow>217.39</YearLow>
+  <Volume>198553000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>2.26</Change>
+  <ChangePercent>0.9869</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>236.26</PeriodHigh>
+  <PeriodLow>227.9001</PeriodLow>
+  <CompanyName>SNOWFLAKE-A</CompanyName>
+</LatestDataRecord>

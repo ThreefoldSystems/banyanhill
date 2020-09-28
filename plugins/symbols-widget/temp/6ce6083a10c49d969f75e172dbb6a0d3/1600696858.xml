@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>77.09</LatestPrice>
+  <Ask>77.13</Ask>
+  <Bid>77.09</Bid>
+  <Open>80.085</Open>
+  <High>80.17</High>
+  <Low>78.33</Low>
+  <LatestClose>78.96</LatestClose>
+  <LatestDate>2020-09-21T09:47:06</LatestDate>
+  <PreviousPrice>78.96</PreviousPrice>
+  <YearHigh>83.45</YearHigh>
+  <YearLow>51.31165</YearLow>
+  <Volume>199559</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>21391</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-1.87</Change>
+  <ChangePercent>-2.42574</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>77.95</PeriodHigh>
+  <PeriodLow>77.09</PeriodLow>
+  <CompanyName>Sony Sp ADR</CompanyName>
+</LatestDataRecord>

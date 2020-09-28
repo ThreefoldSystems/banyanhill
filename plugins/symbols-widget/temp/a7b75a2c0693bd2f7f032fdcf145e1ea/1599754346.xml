@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>35.9046</LatestPrice>
+  <Ask>35.91</Ask>
+  <Bid>35.9</Bid>
+  <Open>36.29</Open>
+  <High>36.65</High>
+  <Low>36.14</Low>
+  <LatestClose>36.18</LatestClose>
+  <LatestDate>2020-09-10T12:01:57</LatestDate>
+  <PreviousPrice>36.18</PreviousPrice>
+  <YearHigh>39.5145</YearHigh>
+  <YearLow>27.93584</YearLow>
+  <Volume>118234647</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>187421</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.2754</Change>
+  <ChangePercent>-0.76703</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>36.24</PeriodHigh>
+  <PeriodLow>35.9046</PeriodLow>
+  <CompanyName>Pfizer</CompanyName>
+</LatestDataRecord>

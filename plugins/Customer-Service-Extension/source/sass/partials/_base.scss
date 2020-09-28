@@ -1,0 +1,257 @@
+#tfs_css_header {
+  background: $primary !important;
+  color: $white !important;
+  border-top: 2px solid $secondary !important;
+  font-family: "Montserrat" !important;
+  text-transform: uppercase;
+  border-radius: 0 !important;
+}
+#tfs_css_menu {
+  z-index: 999;
+  .tfs_csd_container__submenu__ul__li, .tfs_csd_container__ul__li {
+    &:not(.submenu) {
+      font-family: "Arial" !important;
+      &.selected, &:hover {
+        background: $primary !important;
+        color: $white !important;
+      }
+    }
+  }
+}
+#tfs_css_content {
+  article {
+    z-index: 999;
+  }
+}
+.tfs_css_preloader {
+  color: $primary !important;
+}
+.featherlight {
+  .featherlight-content {
+    width: 630px;
+    button {
+      width: 120px;
+      letter-spacing: 1px !important;
+      line-height: 15px;
+      height: 40px;
+      margin: 4px !important;
+    }
+  }
+}
+#tfs_css_content, .featherlight, .featherlight .featherlight-content {
+  font-family: "Montserrat" !important;
+  td {
+    font-size: 15px;
+    line-height: 2em;
+  }
+  h2, button, .tfs_css_header_modal {
+    font-family: "Montserrat" !important;
+  }
+  .tfs_css_header_modal {
+    background-color: $primary !important;
+    color: $white;
+  }
+  button {
+    border: none;
+    background-color: $primary !important;
+    color: $white;
+    height: auto;
+    min-height: 40px;
+    transition: background-color 0.5s ease;
+    &:disabled {
+      opacity: 0.7;
+      cursor: default;
+    }
+    &:hover {
+      background-color: $secondary !important;
+    }
+  }
+  p, td, span {
+    font-family: "Arial" !important;
+  }
+}
+.csd_ext_my_subscriptions {
+  display: none;
+  .subs_content {
+    width: 100% !important;
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+    p {
+      line-height: 1.8em !important;
+    }
+  }
+  .subs_table {
+    button {
+      float: right;
+      width: 100px;
+    }
+    .subs_table {
+      button {
+        float: right;
+      }
+      td {
+        &:first-of-type {
+          width: 30%;
+        }
+      }
+    }
+  }
+  table {
+    width: 100%;
+    margin-bottom: 10px;
+    button {
+      padding: 1px 11px;
+      background: $primary;
+      color: $white;
+      font-size: 11px;
+      border: none;
+      text-transform: uppercase;
+    }
+    .csd_ext_now_button {
+      margin-bottom: 12px;
+    }
+  }
+}
+#csd_ext_modal {
+  .csd_ext_modal_content {
+    width: 80%;
+    margin: auto;
+    &.csd_ext_modal_content_video {
+      width: 95%;
+    }
+    iframe {
+      margin: 0;
+      width: 100%;
+    }
+  }
+  .modal-response-btn-container {
+    margin-top: 50px;
+  }
+  .csd_ext_response_content {
+    padding-left: 120px;
+    padding-bottom: 34px;
+    padding-top: 20px;
+    p {
+      padding: 10px;
+    }
+    &.csd_ext_change_status_content {
+      padding-top: 0;
+      padding-bottom: 0;
+      .csd_ext_change_status_menu {
+        width: 100%;
+        td {
+          text-align: left;
+          padding-left: 10px !important;
+          button {
+            position: static !important;
+          }
+        }
+      }
+    }
+  }
+  .tfs_css_preloader {
+    padding-top: 55px;
+  }
+  .tfs_css_prompt_form {
+    text-align: left;
+    input {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    label {
+      clear: both;
+      display: block;
+      &.input_label {
+        margin-top: 1em;
+      }
+    }
+  }
+  .csd_ext_button_container {
+    &.csd_ext_button_still_cancel {
+      button {
+        width: auto;
+      }
+    }
+    text-align: center;
+    clear: both;
+    .csd_ext_button {
+      position: static;
+    }
+    .wait {
+      visibility: hidden;
+    }
+  }
+}
+.csd_ext_strike {
+  text-decoration: line-through;
+}
+.tfs_css_success_msg_modal {
+  &.csd_ext_success_msg_modal {
+    background-color: $success;
+    background-image: none;
+    &:after {
+      content: "\f058";
+      font-family: FontAwesome;
+      font-size: 50px;
+      color: $success-font;
+      z-index: 1;
+    }
+  }
+  &.csd_ext_notice_msg_modal {
+    background-color: $notice;
+    background-image: none;
+    &:after {
+      content: "\f05a";
+      font-family: FontAwesome;
+      font-size: 50px;
+      color: $notice-font;
+      z-index: 1;
+    }
+  }
+}
+.tfs_css_error_msg_modal {
+  &.csd_ext_error_msg_modal {
+    background-color: $error;
+    background-image: none;
+    &:after {
+      content: "\f057";
+      font-family: FontAwesome;
+      font-size: 50px;
+      color: $error-font;
+      z-index: 1;
+    }
+  }
+}
+.short-text {
+  padding-top: 20px;
+}
+.csd_ext_renewal_price_span {
+  text-decoration: line-through;
+}
+.eletter-subtitle {
+  padding-bottom: 20px!important;
+}
+@media only screen and (max-width: 768px) {
+  .csd_ext_my_subscriptions {
+    tr {
+      display: block;
+      td {
+        &:first-of-type {
+          width: auto;
+        }
+        &:last-of-type {
+          display: block;
+          button {
+            width: 100%;
+            padding: 10px;
+
+          }
+        }
+      }
+    }
+  }
+}

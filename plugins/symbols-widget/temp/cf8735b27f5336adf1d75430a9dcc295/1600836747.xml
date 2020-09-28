@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>28.51</LatestPrice>
+  <Ask>28.5</Ask>
+  <Bid>28.51</Bid>
+  <Open>28.53</Open>
+  <High>28.93</High>
+  <Low>28.42</Low>
+  <LatestClose>28.51</LatestClose>
+  <LatestDate>2020-09-22T00:00:00</LatestDate>
+  <PreviousPrice>28.63</PreviousPrice>
+  <YearHigh>37.77446</YearHigh>
+  <YearLow>25.85812</YearLow>
+  <Volume>2814837400</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>182566</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.12</Change>
+  <ChangePercent>-0.4209</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>28.93</PeriodHigh>
+  <PeriodLow>28.42</PeriodLow>
+  <CompanyName>AT&amp;T</CompanyName>
+</LatestDataRecord>

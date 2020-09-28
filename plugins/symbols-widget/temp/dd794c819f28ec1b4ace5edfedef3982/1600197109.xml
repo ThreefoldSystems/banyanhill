@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>111.74</LatestPrice>
+  <Ask>111.69</Ask>
+  <Bid>111.65</Bid>
+  <Open>111.77</Open>
+  <High>115</High>
+  <Low>109.39</Low>
+  <LatestClose>112.55</LatestClose>
+  <LatestDate>2020-09-15T17:31:01</LatestDate>
+  <PreviousPrice>112.55</PreviousPrice>
+  <YearHigh>135.52</YearHigh>
+  <YearLow>31.69</YearLow>
+  <Volume>37795310</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.81</Change>
+  <ChangePercent>-0.7249</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>113.1521</PeriodHigh>
+  <PeriodLow>109.51</PeriodLow>
+  <CompanyName>Etsy</CompanyName>
+</LatestDataRecord>

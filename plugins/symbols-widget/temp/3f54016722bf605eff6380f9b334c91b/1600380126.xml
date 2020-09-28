@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>128.58</LatestPrice>
+  <Ask>128.9</Ask>
+  <Bid>128.94</Bid>
+  <Open>127.48</Open>
+  <High>129.23</High>
+  <Low>124.8</Low>
+  <LatestClose>128.58</LatestClose>
+  <LatestDate>2020-09-17T00:00:00</LatestDate>
+  <PreviousPrice>131.15</PreviousPrice>
+  <YearHigh>143.69</YearHigh>
+  <YearLow>33.01</YearLow>
+  <Volume>493852800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-2.57</Change>
+  <ChangePercent>-1.99876</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>129.23</PeriodHigh>
+  <PeriodLow>124.8</PeriodLow>
+  <CompanyName>CRWDSTRIK HLDG-A</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,621 @@
+.portfolio-header {
+    display: block;
+    width: 100%;
+    min-height: 20px;
+    overflow: auto;
+    padding: 2px 10px;
+}
+.portfolio-header.odd {
+    background: #ababab;
+}
+.portfolio-header p {
+    margin: 10px 0;
+}
+
+.portfolio-header .portfolio-name {
+    width: 60%;
+    float: left;
+}
+
+.portfolio-header .portfolio-symbol {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.portfolio-header .portfolio-toggle {
+    float: right;
+    cursor: pointer;
+}
+.portfolio-header .portfolio-toggle .fa-minus {
+    display: none;
+}
+
+.portfolio-content {
+    display: none;
+    background: #fff;
+    padding: 5px;
+    border-bottom: thin solid #268dd4;
+    margin: 10px 0 5px 0;
+    -webkit-transition: all linear 0.5s;
+    transition: all linear 0.5s;
+    opacity: 1;
+}
+.portfolio-content p {
+    text-align: left !important;
+    width: 100%;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    color: #333;
+    white-space: normal !important;
+}
+.portfolio-content .portfolio-title {
+    text-transform: uppercase;
+    color: #268dd4;
+    font-weight: 700;
+    margin-right: .5em;
+}
+.portfolio-column-note, .tfs-portfolio-table tbody tr.portfolio-recommendation-row .portfolio-column-note {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+	margin: 8px 0;
+}
+
+#mobile-portfolio-view {
+    display: none;
+}
+.tfs-portfolio-container {
+    position: relative;
+}
+
+.tfs-portfolio-container #tfs-portfolio-summary {
+    background: #113752;
+    padding: 10px;
+}
+.tfs-portfolio-container #tfs-portfolio-summary * {
+    color: #fff;
+}
+.tfs-portfolio-container #tfs-portfolio-summary h5 {
+	padding: 0;
+	font-weight: 600;
+}
+.tfs-portfolio-container #tfs-portfolio-summary div {
+	font-size: 12px;
+	line-height: 20px;
+}
+#tfs-portfolio-graph, .tfs-portfolio {
+    font-family: "Open Sans", sans-serif;
+    overflow: auto;
+    position: relative;
+	max-height: 49vh;
+}
+.tfs-portfolio-table-control {
+	border-width:0;
+    border-bottom: 1px solid #E2E2E2;
+    background: rgb(248,248,250);
+    background: -moz-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    background: -webkit-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8fa',endColorstr='#eeeeee',GradientType=0);	
+}
+.tfs-portfolio table {
+    position: relative;
+    border: none;
+    border-collapse: separate;
+    margin: 0 !important;
+/* 	table-layout: fixed; */
+}
+.tfs-portfolio-table .sorting_1 {
+    background: #efefef;
+	font-weight: 700;
+}
+.tfs-portfolio-table td, .tfs-portfolio-table th, .tfs-portfolio-table tr, .tfs-portfolio-table-control td, .tfs-portfolio-table-control th, .tfs-portfolio-table-control tr {
+    padding: 0;
+}
+
+#tfs-portfolio-graph {
+    margin-bottom: 50px;
+}
+#tfs-portfolio-header {
+    font-size: 25px;
+    letter-spacing: 0.38px;
+    line-height: 38px;
+    font-weight: normal;
+}
+.tfs-portfolio-table thead th {
+/*    background: #113752;*/
+	background: #fff;
+/*	border-right: 1px solid #ffffff;*/
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    text-align: left;
+    opacity: 1;
+    color: rgba(0,0,0,0.75);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    line-height: 15px;
+    text-transform: uppercase;
+    white-space: nowrap;
+	top: 0;
+	vertical-align: bottom;
+	z-index: 1;
+}
+.tfs-portfolio-table thead th.portfolio-return {
+    width: 120px;
+}
+/* 
+ .tfs-portfolio-table thead th.portfolio-buy-date, .tfs-portfolio-table thead th.portfolio-last-price, .tfs-portfolio-table thead th.portfolio-dividend, .tfs-portfolio-table thead th.portfolio-dividends, .tfs-portfolio-table thead th.portfolio-return, .tfs-portfolio-table thead th.portfolio-stop-price, .tfs-portfolio-table thead th.portfolio-dividend-yield, .tfs-portfolio-table thead th.portfolio-dividend-yield-2
+ */
+
+.tfs-portfolio-table thead th:first-child {
+  left: 0;
+  z-index: 2;
+/*   min-width: 185px; */
+}
+
+.tfs-portfolio-table thead th:last-of-type {
+	border-right: none;
+}
+
+.tfs-portfolio-table tbody td, .tfs-portfolio-table tbody th {
+    font-size: 18px;
+	border-top: none;
+	border-right-width: 0 !important;
+    border-bottom: 1px solid #E2E2E2;
+    font-weight: normal;
+    background: #FFF;
+	padding: 15px 20px !important;
+}
+
+.tfs-portfolio-table tbody td.portfolio-symbol-name-subtrade {
+    padding: 8px 10px 8px 20px !important;
+}
+.tfs-portfolio-table tbody td.portfolio-subtrade-container {
+    padding: 0 !important;
+}
+
+.tfs-portfolio-table tbody th {
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+}
+.tfs-portfolio-table thead .portfolio-expand th, .tfs-portfolio-table thead .portfolio-expand td, .tfs-portfolio-table-control .portfolio-expand td {
+    border-right: none;
+	border-top: none;
+/*     border-bottom: 2px solid #262b38; */
+	font-size: 12px;
+    text-transform: uppercase;
+    padding: 5px 10px !important;
+    font-weight: 600;
+/*     background: #fff; */
+    line-height: normal;
+    color: inherit;
+    letter-spacing: normal;	
+}
+/*
+.tfs-portfolio-table tr.odd th, .tfs-portfolio-table tr.odd td, .tfs-portfolio-table tr.portfolio-main-row.odd + tr:not(.portfolio-main-row) th, .tfs-portfolio-table tr.odd td, .tfs-portfolio-table tr.portfolio-main-row.odd + tr:not(.portfolio-main-row) td {
+    background: #efefef;
+}
+*/
+.tfs-portfolio-table .closed {
+	display: none;	
+}
+.tfs-portfolio-table .portfolio-security {
+	white-space: nowrap;
+}
+.tfs-portfolio-table .portfolio-security > i {
+    margin: 0 5px 0 0;
+	font-size: 15px;
+	color: #ff6600;
+}
+.tfs-portfolio-table .portfolio-security i.rotated { 
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.tfs-portfolio-table tbody td:last-of-type {
+    border-right: none;
+}
+.tfs-portfolio-table tbody td span, .tfs-portfolio-table tbody tr span  {
+    white-space: nowrap;
+    line-height: normal;
+}
+.tfs-portfolio-table td.portfolio-advice > span {
+	white-space: normal;
+}
+.tfs-portfolio-table td.portfolio-advice .portfolio-column-note, a .portfolio-column-note, a.portfolio-symbol-link, a.portfolio-symbol-link:visited {
+	color: #1D9BF5;
+}
+.tfs-portfolio-table tbody td.portfolio-recommendation span, .tfs-portfolio-table tbody tr.portfolio-recommendation-row span {
+	display: inline;
+    white-space: normal;
+	font-weight: normal;
+}
+.tfs-portfolio-table tbody .portfolio-recommendation-row.active {
+	display: table-row;
+}
+.tfs-portfolio-table tbody .portfolio-recommendation-row th {
+    border-right: none;
+	white-space: nowrap;
+}
+.tfs-portfolio-table tr.portfolio-recommendation-row td {
+/*     line-height: 15px; */
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* .tfs-portfolio-table tr.portfolio-recommendation-row td span {
+	text-transform: none;
+	font-weight: normal;
+} */
+.tfs-portfolio-table tr.portfolio-recommendation-row .portfolio-recommendation {
+    font-size: 13px;
+}
+
+.tfs-portfolio-table thead .portfolio-expand span {
+    display: inline-block;
+	cursor: pointer;
+}
+
+/* .tfs-portfolio-table tbody tr:last-of-type td, .tfs-portfolio-table tbody tr:last-of-type th {
+    border-bottom: none;
+} */
+.tfs-portfolio-table .portfolio-symbol-name {
+    position: absolute;
+    background-color: #fff3cd;
+    padding: 8px 10px;
+    margin: 10px 0;
+    border: 1px solid #ffeeba;
+    top: -17px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    z-index: 100;
+    left: 25px;
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+    transition: all 0.4s ease;
+    visibility: hidden;
+    opacity: 0;
+/*     color: rgba(0,0,0,0.75); */
+    /* min-width: 375px; */
+}
+.tfs-portfolio-table .portfolio-symbol-name.left {
+	right: 0;
+	left: unset;
+	color: #000;
+	pointer-events: none;
+	top:-50px;
+}
+.tfs-portfolio-table .portfolio-symbol-name.left:after {
+	transform: rotate(-90deg);
+	right: 10px;
+	bottom: -19px;	
+	left: unset;
+}
+.tfs-portfolio-table .portfolio-symbol-name:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-right-color: #fff3cd;
+    border-left: 0;
+    margin-bottom: 4px;
+}
+.tfs-portfolio-table .portfolio-symbol-info-widget:hover .portfolio-symbol-name {
+    visibility: visible;
+    opacity: 1;
+}
+.tfs-portfolio-table tbody tr span.portfolio-symbol-info-widget {
+    position: relative;
+	cursor: pointer;
+}
+.tfs-portfolio-table tbody tr .portfolio-security span.portfolio-symbol-info-widget, .tfs-portfolio-table td.portfolio-advice span.portfolio-symbol-info-widget {
+    margin: 0;
+}
+.tfs-portfolio-table .portfolio-security .portfolio-symbol-name {
+    top: -50px;
+    left: -10px;
+	pointer-events: none;
+}
+
+.tfs-portfolio-table .portfolio-security .portfolio-symbol-name:after {
+    transform: rotate(-90deg);
+    left: 20px;
+    top: 25px;
+}
+
+.tfs-portfolio-table tbody tr .portfolio-security span.portfolio-symbol-info-widget:hover {
+    overflow: visible;
+}
+.tfs-portfolio-table tbody tr td.portfolio-type > span:first-of-type {
+	font-size: 16px;
+}
+.tfs-portfolio-table tbody tr .portfolio-type span.portfolio-symbol-info-widget i {
+    color: #113752;
+}
+.tfs-portfolio-table tbody tr .portfolio-type span.portfolio-symbol-info-widget i.green {
+    color: #009933;
+}
+.tfs-portfolio-table tbody tr .portfolio-type span.portfolio-symbol-info-widget i.yellow {
+    color: #e5e500;
+}
+.tfs-portfolio-table tbody tr .portfolio-type span.portfolio-symbol-info-widget i.red {
+    color: #E6173E;
+}
+.tfs-portfolio-table .portfolio-ticker {
+    text-align: left;
+}
+.tfs-portfolio-table tfoot td {
+    background-color: #F7F6F7;
+    padding: 18px 2px;
+    text-align: right;
+    border-bottom: 1px solid #E2E2E2;
+    color: #303133;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    line-height: 19px;
+}
+.tfs-portfolio-table tfoot td span {
+    padding-left: 5px;
+}
+.portfolio-bold {
+    font-weight: 700;
+}
+.portfolio-semi-bold {
+    font-weight: 600;
+}
+.portfolio-sub-span {
+    font-size: 11px;
+}
+.tfs-portfolio-table .portfolio-return-negative {
+    color: #E6173E;
+}
+.tfs-portfolio-table .portfolio-return-positive {
+    color: #009933;
+}
+.tfs-portfolio-table td.portfolio-return {
+    font-weight: 700;
+}
+.tfs-portfolio-table .portfolio-right-align  {
+    text-align: right;
+}
+.tfs-portfolio-table .mobile {
+	display: none;
+}
+
+table.dataTable.no-footer {
+	border-bottom: none;
+}
+table.dataTable thead th, table.dataTable thead td {
+	border-bottom: 1px solid #e2e2e2;
+	font-weight: 600;
+	padding: 15px 20px;
+}
+table.dataTable thead th, table.dataTable tfoot th {
+	font-weight: 600;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+	background-image: none;
+	background-color: #fff;
+}
+table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+	font-weight:700;
+}
+table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after {
+	content: '';
+	width: 100%;
+	background: #ff6600;
+	position: absolute;
+	display: block;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+}
+.portfolio-sort-icon {
+	position: absolute;
+	color: rgba(0,0,0,0.25);
+}
+.sorting_desc .portfolio-sort-icon .fa-sort:before {
+	content: "\f0dd";
+	color: #ff6600;
+}
+.sorting_asc .portfolio-sort-icon .fa-sort:before {
+	content: "\f0de";
+	color: #ff6600;
+}
+
+/* navigation */
+.nav-tfs-portfolio {
+	background: #fff;
+	border-width: 0;
+	border-bottom: 1px solid #e2e2e2;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 600;
+	padding: 0;
+}
+.tfs-portfolio-select, .tfs-portfolio-select:focus {
+	background: #fff;
+	color: #ff6600;
+	border-width: 0;
+	border-bottom: 1px solid #e2e2e2;
+    font-size: 15px;
+    font-weight: 600;
+	padding: 10px 0;
+	width: 100%;
+	border-radius: 0;
+}
+.nav-tfs-portfolio li {
+    padding: 20px 10px 12px 10px;
+    margin: 0;
+}
+.nav-tfs-portfolio li a:hover, .nav-tfs-portfolio li.active a {
+	color: #ff6600;
+}
+.nav-tfs-portfolio a[data-toggle="tab"] {
+	display: block;
+}
+/*
+.nav-tfs-portfolio a[data-toggle="tab"] span {
+    background: #ff6600;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    border: 1px solid #fff;
+    font-size: 10px;
+    display: block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+*/
+.nav-tfs-portfolio li.active:after {
+	content: '';
+	width: 100%;
+	background: #ff6600;
+	position: absolute;
+	display: block;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+}
+.dataTables_wrapper {
+    display: none;
+}
+
+.dataTables_wrapper.active {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    #mobile-portfolio-view {
+        display: block;
+    }
+    #pttable {
+        display: none;
+    }
+}
+@media (max-width: 479px) {
+	table.dataTable thead th, table.dataTable thead td {
+		padding: 8px 16px;
+	}
+
+	table.dataTable tbody th, table.dataTable tbody td {
+		padding: 8px 16px !important;
+	}
+
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row > td {
+		padding: 0 !important;
+	}	
+	.nav-tfs-portfolio {
+		flex-flow: column;
+		text-align: left;
+	}
+	.nav-tfs-portfolio li {
+		padding: 10px 4px;
+		border-bottom: 1px solid #efefef;
+	}
+	.nav-tfs-portfolio li:last-of-type {
+		border-bottom: none;
+	}	
+	.tfs-portfolio table {
+		table-layout: auto;
+	}	
+	.tfs-portfolio-table thead th {
+		z-index: 1;
+	}
+	.tfs-portfolio-table tbody th {
+		box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.1);
+	}
+	.tfs-portfolio-table tbody .portfolio-recommendation-row th {
+		box-shadow: none;
+	}
+	
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row > td {
+		padding: 0;
+	}
+	
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row-mobile td {
+		border-right-width: 0px;
+	}
+	#model-portfolio .modalContent {
+		max-height: 86vh;
+		margin-bottom: 26px;
+	}
+	.modalContent .tfs-portfolio-container {
+		position: -webkit-sticky; /* for Safari */
+		position: sticky;
+		top: 0;
+		max-height: 83vh;
+		margin-bottom: 26px;
+	}
+	.modalContent .tfs-portfolio {
+		margin-bottom: 26px;
+		max-height: 67vh;
+	}
+	.tfs-portfolio-table div.portfolio-security {
+		position: relative;
+	}
+	.tfs-portfolio-table div.portfolio-security > i {
+		position: absolute;
+		left: -10px;
+		top: 6px;
+		font-size: 15px;
+		color: #ff6600;
+	}	
+	.tfs-portfolio-table .portfolio-recommendation-row-mobile > td {
+		background: #efefef;
+		display: flex;
+		flex-flow: wrap;
+		justify-content: space-between;
+	}
+	
+	.tfs-portfolio-table .portfolio-recommendation-row-mobile hr {
+		border: 0;
+		height: 1px;
+		background: #E2E2E2;
+		width: 100%;
+		margin: 4px 0 8px;
+	}
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row span.portfolio-row-title {
+	    font-weight: 700;
+		display: flex;
+    	flex-flow: column;
+	}	
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row span.portfolio-row-date {
+		display: flex;
+		flex-flow: column;
+		align-items: flex-end;
+		font-weight: 700;
+	}
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row span.portfolio-row-date a {
+		color: #1D9BF5;
+	}
+	.tfs-portfolio-table tbody tr.portfolio-recommendation-row span.portfolio-row-date span, .tfs-portfolio-table tbody tr.portfolio-recommendation-row span.portfolio-row-title span {
+		font-size: 11px;
+		font-weight: normal;
+	}	
+	.portfolio-ticker .portfolio-column-note {
+		white-space: normal;
+	}
+	tr.portfolio-recommendation-row > td {
+		padding: 0 !important;
+	}
+	.tfs-portfolio-table tbody td table tbody tr:last-of-type td {
+		border-bottom: none;
+	}	
+}

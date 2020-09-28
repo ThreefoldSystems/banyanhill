@@ -1,0 +1,30 @@
+{
+  "name": "plugin_base",
+  "version": "1.0.0",
+  "description": "packages needed for frontend development on this plugin",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThreefoldSystems/plugin_base.git"
+  },
+  "keywords": [
+    "plugin_base"
+  ],
+  "author": "Threefold Systems",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThreefoldSystems/plugin_base/issues"
+  },
+  "homepage": "https://github.com/ThreefoldSystems/plugin_base#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jslint": "^1.0.10",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "pump": "^1.0.2"
+  }
+}

@@ -1,0 +1,67 @@
+#tfs_css_alt_theme {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  button {
+    background-color: #9a3324;
+  }
+  h2, .css_open_url {
+    width: 100%;
+    border-bottom: 1px solid $silver;
+    margin: 0;
+  }
+  h2 {
+    padding: 10px 0;
+    color: $black;
+  }
+  .profile-icon{
+    float: left;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .tfs_css_preloader{
+    font-size: 25px;
+  }
+  #tfs_css_profile {
+    ul {
+      float: left;
+      li{
+        background-image: none;
+      }
+    }
+  }
+  .css_open_url {
+    padding: 20px 0;
+    span {
+      vertical-align: middle;
+    }
+  }
+  .tfs_css_content {
+    display: none;
+    width: 100%;
+    float: none;
+    margin: 20px auto 0 auto;
+    border: none;
+    min-height: 0;
+    padding-left: 0;
+  }
+  .tfs_css_content_area {
+    border: none;
+    padding: 0;
+  }
+  .tfs_css_preloader{
+    height: auto;
+    padding-top: 0;
+  }
+  .sub {
+    font-size: 12px;
+  }
+  .tfs_csd_container__ul--profile-sub{
+    display: none;
+  }
+}
+.alt-header {
+  display: none;
+}

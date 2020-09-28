@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>9.99</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>9.62</Open>
+  <High>12.9</High>
+  <Low>8.99</Low>
+  <LatestClose>9.99</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>13.1</PreviousPrice>
+  <YearHigh>14</YearHigh>
+  <YearLow>0.6011</YearLow>
+  <Volume>2079986600</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-3.11</Change>
+  <ChangePercent>-31.13113</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>12.9</PeriodHigh>
+  <PeriodLow>8.99</PeriodLow>
+  <CompanyName>SPI ENERGY</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>53.19</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>53.47</Open>
+  <High>53.59</High>
+  <Low>51.4</Low>
+  <LatestClose>53.19</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>50.57</PreviousPrice>
+  <YearHigh>55.39</YearHigh>
+  <YearLow>9.85</YearLow>
+  <Volume>2177680900</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>2.62</Change>
+  <ChangePercent>4.92574</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>53.59</PeriodHigh>
+  <PeriodLow>51.4</PeriodLow>
+  <CompanyName>DRAFTKINGS-A</CompanyName>
+</LatestDataRecord>

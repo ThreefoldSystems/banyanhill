@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>407.34</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>393.47</Open>
+  <High>408.7323</High>
+  <Low>391.3</Low>
+  <LatestClose>407.34</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>387.79</PreviousPrice>
+  <YearHigh>498.32001</YearHigh>
+  <YearLow>46.286</YearLow>
+  <Volume>6720845900</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>20031</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>19.55</Change>
+  <ChangePercent>4.79943</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>408.7323</PeriodHigh>
+  <PeriodLow>391.3</PeriodLow>
+  <CompanyName>Tesla</CompanyName>
+</LatestDataRecord>

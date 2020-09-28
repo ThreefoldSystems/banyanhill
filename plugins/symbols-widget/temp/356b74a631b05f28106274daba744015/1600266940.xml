@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>77.97</LatestPrice>
+  <Ask>78.02</Ask>
+  <Bid>77.99</Bid>
+  <Open>77.46</Open>
+  <High>77.84</High>
+  <Low>76.27</Low>
+  <LatestClose>77.2</LatestClose>
+  <LatestDate>2020-09-16T15:17:12</LatestDate>
+  <PreviousPrice>77.2</PreviousPrice>
+  <YearHigh>91.87224</YearHigh>
+  <YearLow>44.16761</YearLow>
+  <Volume>1087606</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>3096</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.77</Change>
+  <ChangePercent>0.98756</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>78.295</PeriodHigh>
+  <PeriodLow>77.4987</PeriodLow>
+  <CompanyName>TERADYNE</CompanyName>
+</LatestDataRecord>

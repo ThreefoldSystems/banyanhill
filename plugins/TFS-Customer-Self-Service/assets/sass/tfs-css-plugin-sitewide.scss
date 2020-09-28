@@ -1,0 +1,367 @@
+@import 'partials/variables';
+@import 'partials/base';
+@import 'partials/popups';
+@import 'partials/subs-and-lists';
+@import 'partials/side-menu';
+@import 'partials/on-off-switch';
+@import 'partials/media-queries';
+@import 'partials/forms';
+@import 'partials/new-theme';
+@import 'partials/mixins';
+
+b.tfs_css_mandatory {
+  color: red;
+  text-transform: uppercase;
+}
+
+#tfs_css_prompt_password_enter.featherlight-content{
+  text-align: center !important;
+}
+
+.tfs_css_success_msg_modal {
+  opacity: 1;
+  font-size: $general_fontsize;
+  text-align: center;
+  padding-top: 61px;
+  background-repeat: no-repeat;
+  background-size: 95px;
+  background-position: 25px 51px;
+  background-image: url(#{$plugin_location}success.png);
+  margin-bottom: -3px;
+  background-color: $green;
+  top: 40px;
+  bottom: -8px;
+  position: absolute;
+  width: 120px;
+}
+
+.tfs_css_error_msg_modal{
+  @extend .tfs_css_success_msg_modal;
+  background-image: url(#{$plugin_location}error.png);
+  background-color: $red;
+}
+
+.tfs_css_success_msg{
+  background-image: url(#{$plugin_location}success-green.png);
+  background-repeat: no-repeat;
+  background-position: center 6px;
+  height: 200px;
+  text-align: center;
+  font-size: $general_fontsize !important;
+  padding-top: 111px !important;
+  margin-top: 33px !important;
+}
+
+.tfs_css_error_msg{
+  @extend .tfs_css_success_msg;
+  background-image: url(#{$plugin_location}error.png);
+}
+
+.tfs_css_success_msg_modal_content{
+  text-align: center;
+  font-size: $general_fontsize !important;
+  line-height: 25px;
+  margin-top: 40px !important;
+  margin-left: 120px;
+}
+
+.tfs_css_error_msg_modal_content{
+  @extend .tfs_css_success_msg_modal_content;
+}
+
+
+.tfs_css_preloader {
+  height: 120px;
+  padding-top: 55px;
+  font-size: 75px;
+  color: $header-color;
+  width: 100%;
+  text-align: center;
+  img{
+    height: 69px;
+    padding-bottom: 4px;
+  }
+}
+
+#tfs_css_header {
+  background-color: $header-bgcolor;
+  color: $header-color;
+  padding: 10px;
+  font-size: 22px;
+  border-radius: 10px 10px 0 0;
+}
+
+ul {
+  &.tfs_css_change_email_other_updates{
+    margin: 0;
+    li{
+      border-bottom: 1px dotted $silver;
+      padding: 19px 16px 22px;
+      list-style-type: none;
+      background-image: none;
+      input[type=checkbox] {
+        margin-right: 19px
+      }
+    }
+  }
+}
+
+ul.ul_2_4 {
+  display: inline-table;
+  margin: 0;
+  li {
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    border-bottom: 1px dotted $silver;
+    list-style-type: none;
+    background-image: none;
+  }
+}
+
+#css_my_account{
+ ul {
+   margin: 0;
+   padding-left: 10px;
+ }
+}
+
+.tfs_css_change_all{
+  li {
+    padding: 12px 1px 12px;
+    margin-bottom: 1px;
+    border-bottom: 1px dotted $silver;
+    list-style-type: none;
+    background-image: none;
+    &:hover{
+      background-color: $silver;
+    }
+    span{
+      margin-left: 10px !important;
+    }
+    label {
+      font-size: 20px !important;
+    }
+  }
+  .selected{
+    background-color: $silver!important;
+    span{
+      color: white;
+    }
+    label{
+      color: white;
+    }
+    &:hover{
+      background-color: whitesmoke !important;
+      span{
+        color: $white;
+      }
+      label{
+        color: $grey;
+      }
+    }
+  }
+  .succes_addr_msg{
+    margin-bottom: 16px!important;
+    h2{
+      margin-top: -9px!important;
+      text-align: left!important;
+      font-size: 20px!important;
+      margin-bottom: -3px!important;
+    }
+  }
+}
+
+.tfs_css_header_modal {
+  margin-bottom: 18px;
+  color: $silver;
+  height: 40px;
+  text-align: left;
+  padding-left: 18px;
+  letter-spacing: 2px;
+  background-color: $dark-grey;
+}
+
+.tfs_css_updating_modal{
+    @extend .tfs_css_header_modal;
+}
+
+.css_response {
+  font-size: 15px;
+  .error {
+    color: $red;
+  }
+  .success {
+    color: $green;
+  }
+}
+
+.css_hide {
+  display: none;
+}
+
+#tfs_css_content {
+  z-index: 2;
+  float: left;
+  width: 75%;
+  margin: 20px 0 2% 0;
+  padding-left: 20px;
+  min-height: 450px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-left: 1px dotted $silver;
+}
+
+#tfs_css_body{
+  font-family: $main-font-family;
+  font-size: 16px !important;
+}
+
+.tfs_css_content_area {
+  border: 1px solid $silver;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.tfs_css_message_alert {
+  color: $alert-color;
+  background-color: $alert-bg;
+  padding: 7px;
+  border: 1px solid $alert-border;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.text-right {
+  text-align: right;
+  clear: both;
+}
+.float-left {
+   float: left;
+}
+.clear-both {
+  clear: both;
+}
+.green-span {
+  color: $green;
+}
+.tfs_css_margin_top{
+  margin-top: 20px;
+}
+.tfs_css_not_subscribed{
+  color:#E2747E;
+}
+body {
+  .tfs_csd_container{
+    @include element('menu') {
+      width: 25%;
+      float: left;
+      position: relative;
+      background-color: $white;
+      padding-top: 20px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+    }
+    @include element('ul') {
+      @include modifier('tabs') {
+        @include element('li') {
+          font-size: 17px;
+          padding-left: 4px;
+          padding-top: 9px;
+          padding-bottom: 6px;
+          margin-left: 0!important;
+        }
+      }
+      @include element('li') {
+        list-style-type: none;
+        background-image: none;
+        &:hover {
+          background-color: $grey;
+          cursor: pointer;
+        }
+        &.selected{
+          background: $grey;
+          color: $white;
+          &:hover {
+            color: $white;
+          }
+        }
+        @include element('span') {
+          max-width: 90%;
+        }
+        @include element('i') {
+          float: right;
+          margin: 5px 5px;
+        }
+        @include modifier('subs') {
+          &:hover {
+            background-color: inherit;
+            cursor: auto;
+          }
+        }
+      }
+      @include modifier('profile-name') {
+        margin-bottom: 0;
+        padding: 20px 20px 5px 20px;
+        @include element('li') {
+          &:hover {
+            background-color: inherit;
+            cursor: auto;
+          }
+        }
+      }
+      @include modifier('profile-sub') {
+        clear: both;
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 5px 20px 5px 20px;
+        @include element('li') {
+          &:hover {
+            background-color: inherit;
+            cursor: auto;
+          }
+        }
+      }
+    }
+    @include element('submenu') {
+      background-color: $silver !important;
+      padding: 0;
+      margin: 0;
+      @include element('ul') {
+        border-top: 1px solid $silver;
+        font-weight: lighter;
+        padding: 0;
+        margin-left: 0 !important;
+        list-style: none;
+        @include element('li') {
+          list-style-type: none;
+          background-image: none;
+          font-size: $general_fontsize;
+          min-height: 24px;
+          padding-left: 8px;
+          padding-top: 8px;
+          margin-left: 0;
+          background: $header-bgcolor;
+          &.selected{
+            background: $darker-grey;
+            color: $white;
+            &:hover{
+              background: $darker-grey;
+              color: $white;
+            }
+          }
+          &:hover{
+            background: $light-grey;
+          }
+        }
+      }
+    }
+    @include element('div') {
+      @include modifier('profile') {
+        float: left;
+      }
+    }
+  }
+}

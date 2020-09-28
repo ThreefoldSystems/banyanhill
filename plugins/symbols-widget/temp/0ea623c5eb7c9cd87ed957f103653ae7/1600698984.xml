@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>146.26</LatestPrice>
+  <Ask>146.65</Ask>
+  <Bid>146.44</Bid>
+  <Open>150</Open>
+  <High>153.44</High>
+  <Low>146.02</Low>
+  <LatestClose>149.04</LatestClose>
+  <LatestDate>2020-09-21T10:26:54</LatestDate>
+  <PreviousPrice>149.04</PreviousPrice>
+  <YearHigh>162.46001</YearHigh>
+  <YearLow>54.02</YearLow>
+  <Volume>12562275</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-2.78</Change>
+  <ChangePercent>-1.90072</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>147.195</PeriodHigh>
+  <PeriodLow>142.07</PeriodLow>
+  <CompanyName>BEYOND MEAT</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>62.98</LatestPrice>
+  <Ask>63.03</Ask>
+  <Bid>62.96</Bid>
+  <Open>58.49</Open>
+  <High>59.51</High>
+  <Low>57.45</Low>
+  <LatestClose>59.34</LatestClose>
+  <LatestDate>2020-09-14T11:36:56</LatestDate>
+  <PreviousPrice>59.34</PreviousPrice>
+  <YearHigh>94.85</YearHigh>
+  <YearLow>13.93</YearLow>
+  <Volume>60967506</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>3.64</Change>
+  <ChangePercent>5.77961</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>63.4701</PeriodHigh>
+  <PeriodLow>60.68</PeriodLow>
+  <CompanyName>MODERNA</CompanyName>
+</LatestDataRecord>

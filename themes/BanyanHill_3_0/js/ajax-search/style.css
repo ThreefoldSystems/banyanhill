@@ -1,0 +1,43 @@
+.pdf_blocky + .cf h4.h4_pdf
+{
+    display: none;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak
+{
+    display: none !important;
+}
+
+#searchform {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#searchform .search-submit {
+    position: absolute;
+    background: none;
+    border: none;
+    text-indent: -999px;
+    height: 43px;
+    width: 43px;
+    top: 0;
+    right: 10px;
+    z-index: 3;
+}
+
+#searchform {
+    position: relative
+}
+
+#searchform:after {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f002";
+    position: absolute;
+	right: 24px;
+    top: 12px;
+}

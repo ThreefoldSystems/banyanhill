@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>6.1676</LatestPrice>
+  <Ask>6.16</Ask>
+  <Bid>6.15</Bid>
+  <Open>6.089934</Open>
+  <High>6.169802</High>
+  <Low>5.990099</Low>
+  <LatestClose>6.05</LatestClose>
+  <LatestDate>2020-09-25T09:51:09</LatestDate>
+  <PreviousPrice>6.05</PreviousPrice>
+  <YearHigh>13.1056</YearHigh>
+  <YearLow>5.47274</YearLow>
+  <Volume>17828702</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>242883</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.1176</Change>
+  <ChangePercent>1.90674</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>6.1676</PeriodHigh>
+  <PeriodLow>6.04</PeriodLow>
+  <CompanyName>General Electric</CompanyName>
+</LatestDataRecord>

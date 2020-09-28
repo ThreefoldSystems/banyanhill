@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>18.9</LatestPrice>
+  <Ask>0</Ask>
+  <Bid>0</Bid>
+  <Open>19.2</Open>
+  <High>19.2994</High>
+  <Low>18.8</Low>
+  <LatestClose>18.9199</LatestClose>
+  <LatestDate>2020-09-11T15:46:57</LatestDate>
+  <PreviousPrice>18.9199</PreviousPrice>
+  <YearHigh>20.24</YearHigh>
+  <YearLow>10.68</YearLow>
+  <Volume>5291691</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.0199</Change>
+  <ChangePercent>-0.10529</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>N/A</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>18.92</PeriodHigh>
+  <PeriodLow>18.69</PeriodLow>
+  <CompanyName>Volkswagen Unsp ADR</CompanyName>
+</LatestDataRecord>

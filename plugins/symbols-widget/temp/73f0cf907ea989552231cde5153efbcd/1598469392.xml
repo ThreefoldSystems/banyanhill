@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>40.19</LatestPrice>
+  <Ask>40.22</Ask>
+  <Bid>40.2</Bid>
+  <Open>40.48</Open>
+  <High>40.66</High>
+  <Low>39.03</Low>
+  <LatestClose>39.99</LatestClose>
+  <LatestDate>2020-08-26T19:01:01</LatestDate>
+  <PreviousPrice>39.99</PreviousPrice>
+  <YearHigh>43.4</YearHigh>
+  <YearLow>10.77</YearLow>
+  <Volume>600903</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>1215</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.2</Change>
+  <ChangePercent>0.49764</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>40.19</PeriodHigh>
+  <PeriodLow>40.19</PeriodLow>
+  <CompanyName>Crocs</CompanyName>
+</LatestDataRecord>

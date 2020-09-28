@@ -1,0 +1,7 @@
+#ts_accordion {
+    width: 40%;
+}
+
+.ui-widget-content {
+    border: 1px solid #ddd!important;
+}

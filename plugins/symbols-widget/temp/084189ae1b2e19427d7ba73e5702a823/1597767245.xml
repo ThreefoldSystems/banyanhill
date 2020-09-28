@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>6.365</LatestPrice>
+  <Ask>6.37</Ask>
+  <Bid>6.36</Bid>
+  <Open>6.33</Open>
+  <High>6.36</High>
+  <Low>6.29</Low>
+  <LatestClose>6.35</LatestClose>
+  <LatestDate>2020-08-18T12:01:42</LatestDate>
+  <PreviousPrice>6.35</PreviousPrice>
+  <YearHigh>7.14</YearHigh>
+  <YearLow>2.85</YearLow>
+  <Volume>13394447</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.015</Change>
+  <ChangePercent>0.23566</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>6.37</PeriodHigh>
+  <PeriodLow>6.305</PeriodLow>
+  <CompanyName>Fitbit-A</CompanyName>
+</LatestDataRecord>

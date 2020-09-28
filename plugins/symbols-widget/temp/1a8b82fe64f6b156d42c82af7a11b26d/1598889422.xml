@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>232.605</LatestPrice>
+  <Ask>232.71</Ask>
+  <Bid>232.51</Bid>
+  <Open>253.95</Open>
+  <High>256.6</High>
+  <Low>234.55</Low>
+  <LatestClose>237.02</LatestClose>
+  <LatestDate>2020-08-31T11:46:57</LatestDate>
+  <PreviousPrice>237.02</PreviousPrice>
+  <YearHigh>301.34</YearHigh>
+  <YearLow>128.52</YearLow>
+  <Volume>9037325</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>6387</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-4.415</Change>
+  <ChangePercent>-1.89807</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>236.3682</PeriodHigh>
+  <PeriodLow>231.9714</PeriodLow>
+  <CompanyName>Ulta Beauty</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>53.73</LatestPrice>
+  <Ask>53.72</Ask>
+  <Bid>53.73</Bid>
+  <Open>53.99</Open>
+  <High>54.15</High>
+  <Low>53.405</Low>
+  <LatestClose>53.73</LatestClose>
+  <LatestDate>2020-09-11T00:00:00</LatestDate>
+  <PreviousPrice>53.07</PreviousPrice>
+  <YearHigh>60.61542</YearHigh>
+  <YearLow>37.49029</YearLow>
+  <Volume>462770200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>63318</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.66</Change>
+  <ChangePercent>1.22836</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>54.15</PeriodHigh>
+  <PeriodLow>53.405</PeriodLow>
+  <CompanyName>Astrazeneca Sp ADS</CompanyName>
+</LatestDataRecord>

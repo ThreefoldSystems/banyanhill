@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>NaN</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>NaN</Open>
+  <High>NaN</High>
+  <Low>NaN</Low>
+  <LatestClose>NaN</LatestClose>
+  <LatestDate>0001-01-01T00:00:00</LatestDate>
+  <PreviousPrice>NaN</PreviousPrice>
+  <YearHigh>NaN</YearHigh>
+  <YearLow>NaN</YearLow>
+  <Volume>NaN</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>NaN</Change>
+  <ChangePercent>NaN</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange />
+  <EPS>NaN</EPS>
+  <PeriodHigh>NaN</PeriodHigh>
+  <PeriodLow>NaN</PeriodLow>
+  <CompanyName />
+</LatestDataRecord>

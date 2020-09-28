@@ -1,0 +1,189 @@
+// Main button
+.tfs_css_button {
+  background-color: $black;
+  color: $white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 0;
+  padding: 13px 20px;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 10px 0 2px 0;
+
+  &:disabled {
+    background-color: $silver;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: $silver;
+    }
+  }
+
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.tfs_css_input_section {
+  margin: 10px 0;
+}
+
+#tfs_css_body, .tfs_css_prompt_form {
+  label {
+    line-height: $general_fontsize + 5px;
+    font-size: $general_fontsize;
+
+    .error {
+      display: inline-block;
+      background: $red;
+      padding: 0 15px;
+      text-align: center;
+      border-radius: 8px;
+      font-size: 12px;
+      color: white;
+      line-height: 28px;
+      margin-top: 8px;
+      float: right;
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 10px solid $red;
+        border-right: 11px solid transparent;
+        border-top: 0 solid transparent;
+        border-left: 10px solid transparent;
+        margin-top: -8px;
+      }
+    }
+  }
+
+  %default-input {
+    width: 98%;
+    line-height: normal;
+    border: 1px solid $silver;
+    border-radius: 3px;
+    font-size: 13px;
+    background-color: $white;
+    display: inline-block;
+    margin: 0;
+    padding: 0 6px;
+    height: 30px;
+  }
+
+  select {
+    @extend %default-input;
+    width: 100%;
+  }
+
+  textarea {
+    @extend %default-input;
+  }
+
+  input {
+    .error {
+      border: 1px solid $red;
+      box-shadow: 0 0 5px $red;
+    }
+
+    &[type=text] {
+      @extend %default-input;
+    }
+
+    &[type=password] {
+      @extend %default-input;
+    }
+
+    &[type=textarea] {
+      @extend %default-input;
+    }
+
+    &[type=email] {
+      @extend %default-input;
+    }
+  }
+
+  label.error {
+    display: inline-block;
+    background: $red;
+    padding: 0 15px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 12px;
+    color: $white;
+    line-height: 28px;
+    margin-top: 8px;
+    float: right;
+    &:before {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid $red;
+      border-right: 11px solid transparent;
+      border-top: 0 solid transparent;
+      border-left: 10px solid transparent;
+      margin-left: 8%;
+      margin-top: -8px;
+    }
+  }
+}
+
+.tfs_css_prompt_form {
+  width: 80%;
+  margin: auto;
+}
+#tfs_css_body{
+  .tfs_name_container{
+    width: 98%;
+    .first_name, .last_name {
+      float: left;
+      width: 48%;
+      margin: 0;
+      input[type="text"] {
+        width: 100%
+      }
+    }
+    .first_name {
+      margin-right: 2%;
+
+    }
+
+    .last_name {
+      margin-left: 2%;
+    }
+
+  }
+}
+
+.current_address_title {
+  text-transform: uppercase;
+  font-size: 18px !important;
+  padding-bottom: 20px !important;
+}
+.current_address {
+  padding-bottom: 20px;
+}
+
+#tfs_css_change_email_address_form, #tfs_css_change_username_form {
+  p{
+    padding-bottom: 5px;
+    strong {
+      text-transform: lowercase;
+    }
+  }
+}
+
+#tfs_css_alt_theme {
+  #tfs_css_change_email_address_form, #tfs_css_change_username_form {
+    p {
+      strong {
+        text-transform: none;
+      }
+      span {
+        text-transform: lowercase;
+      }
+    }
+  }
+}

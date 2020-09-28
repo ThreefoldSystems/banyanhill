@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>89.48</LatestPrice>
+  <Ask>89.48</Ask>
+  <Bid>89.45</Bid>
+  <Open>90.34</Open>
+  <High>90.75</High>
+  <Low>89.68</Low>
+  <LatestClose>89.8</LatestClose>
+  <LatestDate>2020-08-18T12:46:53</LatestDate>
+  <PreviousPrice>89.8</PreviousPrice>
+  <YearHigh>99.40041</YearHigh>
+  <YearLow>65.58072</YearLow>
+  <Volume>6628937</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>12037</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.32</Change>
+  <ChangePercent>-0.35762</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>89.79</PeriodHigh>
+  <PeriodLow>89.28</PeriodLow>
+  <CompanyName>Republic Service</CompanyName>
+</LatestDataRecord>

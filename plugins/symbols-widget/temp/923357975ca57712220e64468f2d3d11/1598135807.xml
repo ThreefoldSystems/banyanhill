@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>152.76</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>151.78</Open>
+  <High>153.65</High>
+  <Low>150.5901</Low>
+  <LatestClose>152.76</LatestClose>
+  <LatestDate>2020-08-21T00:00:00</LatestDate>
+  <PreviousPrice>151.42</PreviousPrice>
+  <YearHigh>154.43941</YearHigh>
+  <YearLow>110.37488</YearLow>
+  <Volume>672275900</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>250837</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>1.34</Change>
+  <ChangePercent>0.87719</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>153.65</PeriodHigh>
+  <PeriodLow>150.5901</PeriodLow>
+  <CompanyName>Johnson&amp;Johnson</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>63.38</LatestPrice>
+  <Ask>63.39</Ask>
+  <Bid>63.38</Bid>
+  <Open>64.81</Open>
+  <High>64.97</High>
+  <Low>63.46</Low>
+  <LatestClose>64.21</LatestClose>
+  <LatestDate>2020-09-22T12:16:53</LatestDate>
+  <PreviousPrice>64.21</PreviousPrice>
+  <YearHigh>82.39555</YearHigh>
+  <YearLow>59.32871</YearLow>
+  <Volume>53636341</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>96713</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.83</Change>
+  <ChangePercent>-1.30956</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>64.42</PeriodHigh>
+  <PeriodLow>63.365</PeriodLow>
+  <CompanyName>Gilead Sciences</CompanyName>
+</LatestDataRecord>

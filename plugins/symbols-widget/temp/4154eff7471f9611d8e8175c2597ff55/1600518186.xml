@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>275.19</LatestPrice>
+  <Ask>275.14</Ask>
+  <Bid>275.26</Bid>
+  <Open>278.41</Open>
+  <High>279.835</High>
+  <Low>270.81</Low>
+  <LatestClose>275.19</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>279.96</PreviousPrice>
+  <YearHigh>290.39856</YearHigh>
+  <YearLow>150.45346</YearLow>
+  <Volume>607293200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>108006</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-4.77</Change>
+  <ChangePercent>-1.73335</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>279.835</PeriodHigh>
+  <PeriodLow>270.81</PeriodLow>
+  <CompanyName>Home Depot</CompanyName>
+</LatestDataRecord>

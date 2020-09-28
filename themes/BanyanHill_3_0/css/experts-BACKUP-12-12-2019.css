@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+.profileIMG {
+	float: right;
+	text-align: center;
+	background: rgb(248,248,250);
+	background: -moz-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8fa', endColorstr='#eeeeee', GradientType=0 );
+	padding: 15px;
+	border: 1px solid #ccc;
+	width: 230px;
+	margin: 0 0 3% 3%;
+}
+.profileIMG p > img {
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+    border: 1px solid #999;
+    padding: 3px;
+}
+.profileIMGtxt {
+	display: block;
+	font-size: 13px;
+	padding: 0 0 15px 0;
+}
+.profileIMGtxt strong {
+	display: block;
+	text-align: center;
+	padding: 4px 0 10px 0;
+	font-size: 1.4em;
+}
+.profileIMGtxt em {
+	display: block;
+	text-align: center;
+	line-height: 14px;
+	font-size: 12px;
+	padding: 0 0 5px 0;
+}
+.profileIMG #expSocial ul {
+	margin: 0;
+	padding: 0 !important;
+}
+.profileIMG #expSocial li {
+	display: inline-block;
+	list-style: none;
+	margin: 0 0 0 5px;
+}
+.profileIMG #expSocial .socialExpIcon {
+	width: 30px;
+}
+.expNews h2 {
+	background: rgb(248,248,250);
+	background: -moz-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8fa', endColorstr='#eeeeee', GradientType=0 );
+	padding: 10px 5px;
+	margin: 10px 0;
+	border-bottom: 2px #222 solid;
+	font-size: 1em !important;
+}
+.expNews ul {
+	list-style: none!important;
+	padding: 0;
+	margin: 0;
+}
+.expNews {
+    margin: 20px 0 0;
+    width: 100%;
+    border-top: 1px solid #ccc;
+    padding: 10px 0 0;
+}
+.expNews li {
+    border-bottom: 1px #ccc solid;
+    margin: 20px 0;
+}
+.expNews li p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.expNews li > p {
+    background: rgb(248,248,250);
+    background: -moz-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8fa', endColorstr='#eeeeee', GradientType=0 );
+    padding: 5px 10px;
+    border-bottom: 2px #222 solid;
+}	
+.expNews li .desc {
+    border: 1px solid #ccc;
+    background: rgb(248,248,250);
+    background: -moz-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    background: -webkit-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    background: linear-gradient(to bottom,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8fa',endColorstr='#eeeeee',GradientType=0);
+    padding: 15px;
+    margin: 10px 0 20px 0;
+}
+.single-expert .entry-content a.expert-shower {
+    background: rgb(255,102,0);
+    background: -moz-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(229,91,0,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#e55b00',GradientType=0 );
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+    padding: 10px 7px;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+	transition: .3s ease;
+}
+.single-expert .entry-content a.expert-shower:hover {
+    box-shadow: none;
+    background: linear-gradient(to bottom, rgba(229,91,0,1) 0%,rgba(255,102,0,1) 100%);
+}.recent-list .recent-post .updated+.post-meta-separator {
+    display: none;
+}
+.expNewsIMG {
+	min-width: 250px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+#expBlogRoll h2 {
+	background: rgb(248,248,250);
+	background: -moz-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom, rgba(248,248,250,1) 0%, rgba(238,238,238,1) 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8fa', endColorstr='#eeeeee', GradientType=0 );
+	padding: 10px 5px;
+	margin: 10px 0;
+	border-bottom: 2px #222 solid;
+	font-size: 1em!important;
+	display: block;
+	clear: both;
+	width: 100%;
+}
+
+.exp-grid-layout .title {
+    padding-bottom: 10px;
+    color: rgba(0,0,0,.75);
+    font-family: 'Open Sans';
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-size: 25px;
+    display: block;
+}
+
+.exp-grid-layout .image {
+    float: left;
+    margin: 0 20px 0 0;
+	position: relative;
+}
+
+.exp-grid-layout .date:after {
+    content: '|';
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+.exp-grid-layout .date, .exp-grid-layout .category-display {
+    display: inline-block;
+    font-size: 8.5px !important;
+    color: rgba(0,0,0,0.5);
+}
+
+.exp-grid-layout .category-display a, .exp-grid-layout .category-display a:link {
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.exp-grid-layout .excerpt-dash {
+    display: none;
+}
+.exp-grid-layout .excerpt {
+	display: block;
+	font-size: 14px;
+}
+.exp-grid-layout .listing-item {
+	margin: 2% 0;
+	position: relative;
+	overflow: hidden;
+}
+.exp-grid-layout .listing-item a.image:hover:after {
+    top: 50%;
+    opacity: 1;
+}
+.exp-grid-layout .listing-item a.image {
+    background: rgba(0,0,0,1);
+    transition: .3s ease;
+	display: flex;
+}
+
+.exp-grid-layout .listing-item a.image:hover img {
+    opacity: 0.75;
+    transition: .3s ease;
+}
+
+.exp-grid-layout .listing-item a.image:after {
+    content: '\e050';
+    display: inline-block;
+    font-family: ET-Extra!important;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 60%;
+    font-size: 32px;
+    line-height: 32px;
+    transition: .3s ease;
+    opacity: 0;
+}
+.et_pb_column.et_pb_column_3_4.et_pb_column_0 {
+    padding-right: 3%;
+}

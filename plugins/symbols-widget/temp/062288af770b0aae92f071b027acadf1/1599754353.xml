@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>165.26</LatestPrice>
+  <Ask>165.29</Ask>
+  <Bid>165.22</Bid>
+  <Open>165.25</Open>
+  <High>167.55</High>
+  <Low>164.86</Low>
+  <LatestClose>165.75</LatestClose>
+  <LatestDate>2020-09-10T12:01:41</LatestDate>
+  <PreviousPrice>165.75</PreviousPrice>
+  <YearHigh>179.89261</YearHigh>
+  <YearLow>102.52018</YearLow>
+  <Volume>15009446</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>65754</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.49</Change>
+  <ChangePercent>-0.2965</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>167.07</PeriodHigh>
+  <PeriodLow>164.99</PeriodLow>
+  <CompanyName>Honeywell Intl</CompanyName>
+</LatestDataRecord>

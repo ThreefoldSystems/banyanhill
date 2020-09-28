@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>54.36</LatestPrice>
+  <Ask>54.42</Ask>
+  <Bid>54.37</Bid>
+  <Open>59.01</Open>
+  <High>59.01</High>
+  <Low>57.37</Low>
+  <LatestClose>57.45</LatestClose>
+  <LatestDate>2020-08-19T16:16:39</LatestDate>
+  <PreviousPrice>57.45</PreviousPrice>
+  <YearHigh>63.99</YearHigh>
+  <YearLow>36.76</YearLow>
+  <Volume>1494827478</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>38680</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-3.09</Change>
+  <ChangePercent>-5.68433</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>54.725</PeriodHigh>
+  <PeriodLow>52.56</PeriodLow>
+  <CompanyName>Tjx Companies</CompanyName>
+</LatestDataRecord>

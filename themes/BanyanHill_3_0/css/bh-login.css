@@ -1,0 +1,199 @@
+#mw_login, #new-password-form {
+	border: 1px solid #ccc;
+	background: rgb(248,248,250);
+	background: -moz-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(top,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom,rgba(248,248,250,1) 0%,rgba(238,238,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8f8fa',endColorstr='#eeeeee',GradientType=0);
+	padding: 30px;
+	margin: 20px auto;
+	background-color: #ebebeb;
+	max-width: 500px;		
+}
+#mw_login legend {
+	width: auto;
+	border-bottom: 0;
+	padding: 0 10px;
+}
+#mw_login label {
+	cursor: pointer;
+	color: #222;
+}
+#mw_login input {
+	border: 1px solid #ccc;
+}
+
+#mw_login .reset-email, .tfs-mw-wrapper-block #password-change-form .reset-email {
+	margin: 0px;
+	position: relative;
+}
+#mw_login .login-remember {
+	margin: 1em 0;
+}
+fieldset{
+	padding:20px;
+	border:1px solid black;
+}
+#show-username-form, #show-password-form {
+	border-width: 0 1px 1px 1px;
+    border-color: #CCCCCC;
+}
+#show-username-form, #show-password-form, #mw_login .reset-email label {
+	display:none;
+}
+.invalid {
+	border: 1px solid red;
+}
+p {
+	margin-bottom: 0;
+}
+.entry-content .new-password-head {
+	margin-top:0;
+}
+.new-pw-submit {
+	margin-top:10px;
+}
+#new-password-form label {
+	width:200px;
+	display: inline-block;
+}
+#new-password-form input {
+	border-radius: 0px;
+}
+#password_change_form input{
+	margin-bottom: 10px;
+}
+.fields-container {
+	width: 100%;
+}
+.tfs-mw-wrapper-block {
+	margin: 0 auto;
+}
+.tfs-mw-wrapper-block > .error, .success {
+	text-align: center;
+}
+.tfs-mw-wrapper-block #username-reset-form .reset-submit, .tfs-mw-wrapper-block #password-reset-form .reset-submit, .tfs-mw-wrapper-block #password-change-form .reset-submit {
+	margin: 20px 0 0;
+	width: 100%;
+}
+.tfs-mw-wrapper-block #password-reset-form .user-email input, .tfs-mw-wrapper-block #username-reset-form .user-email input, .tfs-mw-wrapper-block #password-change-form .reset-email input {
+	border: 1px #ccc solid;
+	padding: 15px;
+	height: auto;
+}
+.tfs-mw-wrapper-block #password-change-form .reset-email input {
+	margin: 20px 0 0 0;
+}	
+.tfs-mw-wrapper-block #password-reset-form .reset-submit #wp-submit, .tfs-mw-wrapper-block #password-change-form #wp-submit, .tfs-mw-wrapper-block #username-reset-form .reset-submit #wp-submit,  .tfs-mw-wrapper-block #loginform .login-submit #wp-submit {
+	background: rgb(255,102,0);
+	background: -moz-linear-gradient(top, rgba(255,102,0,1) 0%, rgba(229,91,0,1) 100%);
+	background: -webkit-linear-gradient(top, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,102,0,1) 0%,rgba(229,91,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6600', endColorstr='#e55b00',GradientType=0 );
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	width: 100%;
+	border: none;
+	margin: 0;
+	padding: 10px 7px;
+	text-align: center;
+	border-radius: 0;
+	box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.error, .error input {
+	color: #d0021b;
+}
+.error #user_email {
+	border-color: #d0021b;
+}	
+.tfs-mw-wrapper-block #username-reset-form .user-email label, .tfs-mw-wrapper-block #password-reset-form .user-email label, .tfs-mw-wrapper-block #password-change-form .reset-email label {
+	position: absolute;
+	background: #d0021b;
+	padding: 3px 10px;
+	margin: 10px 0;
+	border: 1px solid #cc0000;
+	font-weight: bold;
+	top: -60px;
+	z-index: 100;
+	right: 0;
+	box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+	transition: all 0.5s ease;
+	color: #fff;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	width: auto !important;
+}
+.tfs-mw-wrapper-block #password-change-form .reset-email label {
+	top: -40px;
+}
+.tfs-mw-wrapper-block #username-reset-form .user-email label.error, .tfs-mw-wrapper-block #password-reset-form .user-email label.error, .tfs-mw-wrapper-block #password-change-form .reset-email label.error {
+	visibility: visible;
+	opacity: 1;
+}
+.tfs-mw-wrapper-block #username-reset-form .user-email label.error:after, .tfs-mw-wrapper-block #password-reset-form .user-email label.error:after, .tfs-mw-wrapper-block #password-change-form .reset-email label.error:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 10px;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #d0021b;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -12px;
+}
+
+#mw_login .options-container > div {
+    display: flex;
+    width: 100%;
+    margin: 20px 0 0 0;
+	flex-flow: wrap;
+}
+
+#mw_login .options-container label {
+    background: #294b64;
+    background: -moz-linear-gradient(top, #294b64 0%, #0d2c41 100%);
+    background: -webkit-linear-gradient(top, #294b64 0%,#0d2c41 100%);
+    background: linear-gradient(to bottom, #294b64 0%,#0d2c41 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#294b64', endColorstr='#0d2c41',GradientType=0 );
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    margin: 0 auto;
+    padding: 10px 7px;
+    text-align: center;
+    border-radius: 0;
+    box-shadow: 0 2px 6px -2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#mw_login .options-container input[type="radio"] {
+    display: none;
+}
+
+#mw_login .options-container input[type="radio"]:checked + label {
+    box-shadow: none;
+    background: #CCCCCC;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#536e83', endColorstr='#294b64',GradientType=0 );
+    color: #222;
+    transition: all 0.5s ease;
+	cursor: auto;
+}
+
+#wp-logout {
+	font-size: inherit;
+}
+
+@media (max-width: 575.98px) {
+	#mw_login, #new-password-form {
+		padding: 10px;
+	}
+}

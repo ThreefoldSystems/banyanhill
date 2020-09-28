@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>20.03</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>19.84</Open>
+  <High>20.48</High>
+  <Low>19.73</Low>
+  <LatestClose>20.03</LatestClose>
+  <LatestDate>2020-09-04T00:00:00</LatestDate>
+  <PreviousPrice>19.87</PreviousPrice>
+  <YearHigh>32.51926</YearHigh>
+  <YearLow>19.21</YearLow>
+  <Volume>2276270200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>20701</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.16</Change>
+  <ChangePercent>0.7988</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>AMEX</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>20.48</PeriodHigh>
+  <PeriodLow>19.73</PeriodLow>
+  <CompanyName>PROSHS SHRT S&amp;P 500</CompanyName>
+</LatestDataRecord>

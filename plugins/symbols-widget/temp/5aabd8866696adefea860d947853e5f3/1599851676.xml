@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>30.585</LatestPrice>
+  <Ask>30.6</Ask>
+  <Bid>30.59</Bid>
+  <Open>30.21</Open>
+  <High>31.2</High>
+  <Low>29.33</Low>
+  <LatestClose>29.51</LatestClose>
+  <LatestDate>2020-09-11T15:01:57</LatestDate>
+  <PreviousPrice>29.51</PreviousPrice>
+  <YearHigh>53.94</YearHigh>
+  <YearLow>16.05</YearLow>
+  <Volume>308411633</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>1.075</Change>
+  <ChangePercent>3.51479</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>31.1</PeriodHigh>
+  <PeriodLow>29.7601</PeriodLow>
+  <CompanyName>LYFT-A</CompanyName>
+</LatestDataRecord>

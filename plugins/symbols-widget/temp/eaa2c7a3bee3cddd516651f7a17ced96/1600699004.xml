@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>50.68</LatestPrice>
+  <Ask>50.7</Ask>
+  <Bid>50.57</Bid>
+  <Open>54.17</Open>
+  <High>54.39</High>
+  <Low>52.09</Low>
+  <LatestClose>53.03</LatestClose>
+  <LatestDate>2020-09-21T10:26:57</LatestDate>
+  <PreviousPrice>53.03</PreviousPrice>
+  <YearHigh>72.57</YearHigh>
+  <YearLow>37.46</YearLow>
+  <Volume>793718</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>475</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-2.35</Change>
+  <ChangePercent>-4.63694</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>52.3</PeriodHigh>
+  <PeriodLow>50.68</PeriodLow>
+  <CompanyName>Ambarella</CompanyName>
+</LatestDataRecord>

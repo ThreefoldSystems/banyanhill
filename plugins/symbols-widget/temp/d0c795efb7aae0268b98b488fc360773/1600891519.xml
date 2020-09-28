@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>211.3451</LatestPrice>
+  <Ask>211.59</Ask>
+  <Bid>211.48</Bid>
+  <Open>207.56</Open>
+  <High>212.49</High>
+  <Low>200.75</Low>
+  <LatestClose>212.13</LatestClose>
+  <LatestDate>2020-09-23T15:56:09</LatestDate>
+  <PreviousPrice>212.13</PreviousPrice>
+  <YearHigh>268.79999</YearHigh>
+  <YearLow>60.64</YearLow>
+  <Volume>281004922</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.7849</Change>
+  <ChangePercent>-0.37138</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>218.935</PeriodHigh>
+  <PeriodLow>209.2283</PeriodLow>
+  <CompanyName>DOCUSIGN</CompanyName>
+</LatestDataRecord>

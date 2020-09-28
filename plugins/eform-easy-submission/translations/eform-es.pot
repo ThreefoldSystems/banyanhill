@@ -1,0 +1,299 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: eForm easySubmission Add-on\n"
+"POT-Creation-Date: 2017-05-19 11:24+0530\n"
+"PO-Revision-Date: 2017-04-24 20:55+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: eform-easysub.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-eform-easysub-direct-submission.php:27
+msgid "Please login to edit your previous submission"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:110
+msgid "Add Format Strings Based on Form Elements"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:112
+msgid "Yes"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:112
+msgid "No"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:117
+msgid ""
+"If enabled, then it will convert your mentioned form elements into format "
+"strings. When you mention elements <code>M0,F4,O2</code> the available "
+"format strings would be <code>%M0%, %F4%, %O2%</code>."
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:121
+msgid "Form Elements to Convert into Format Strings"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:123
+msgid "M0,F1,F2,O1,M13"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:126
+msgid ""
+"Mention form elements to convert into format strings. When you mention "
+"elements <code>M0,F4,O2</code> the available format strings would be <code>"
+"%M0%, %F4%, %O2%</code>. If you mention <code>all</code> then all elements "
+"will be converted into format strings."
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:130
+msgid "Option Delimiter"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:132
+msgid ", "
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:135
+msgid "The delimiter with which multiple options will be concatenated."
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:139
+msgid "Row Delimiter"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:141
+msgid "<br />"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:144
+msgid "The delimiter with which multiple rows will be concatenated."
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:148
+msgid "Range Delimiter"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:150
+msgid "/"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:153
+msgid "The delimiter with which range values will be concatenated."
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:157
+msgid "Entry Delimiter"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:159
+msgid ":"
+msgstr ""
+
+#: classes/class-eform-easysub-format-strings.php:162
+msgid "The delimiter with which multiple entries will be concatenated."
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:98
+msgid "Please wait"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:119
+msgid "No submissions yet!"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:120
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:121
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:122
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#. translators: %s will be replaced by an empty string
+#: classes/class-eform-easysub-list-subs.php:124
+#, php-format
+msgctxt "sInfoPostFix"
+msgid "%s"
+msgstr ""
+
+#. translators: For thousands separator inside datatables
+#: classes/class-eform-easysub-list-subs.php:126
+msgctxt "sInfoThousands"
+msgid ","
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:127
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:131
+msgid "Search submissions"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:132
+msgid "No matching records found"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:134
+msgid "<i title=\"First\" class=\"ipticm ipt-icomoon-first\"></i>"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:135
+msgid "<i title=\"Last\" class=\"ipticm ipt-icomoon-last\"></i>"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:136
+msgid "<i title=\"Next\" class=\"ipticm ipt-icomoon-forward4\"></i>"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:137
+msgid "<i title=\"Previous\" class=\"ipticm ipt-icomoon-backward3\"></i>"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:140
+msgid ": activate to sort column ascending"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:141
+msgid ": activate to sort column descending"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:144
+msgid "Select form to filter"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:145
+msgid "Select category to filter"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:148
+msgid "All"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:149
+msgid "Show all"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:150
+msgid "From"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:151
+msgid "To"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:152
+msgid "Search"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:163
+msgid "Please check the code."
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:163
+msgid "Invalid ID"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:182
+msgid "Javascript is disabled"
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:185
+msgid ""
+"Javascript is disabled on your browser. Please enable it in order to use "
+"this form."
+msgstr ""
+
+#: classes/class-eform-easysub-list-subs.php:189
+msgid "Loading"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:60
+msgid "Direct Submission Edit"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:61
+msgid "Show Login Form"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:62
+msgid "Do not show the new form for non logged in users"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:63
+msgid "Requires the Show Login Form to be checked"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:64
+msgid "Edit Form for Current URL"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:65
+msgid ""
+"If you want to show the edit form based on current URL, then enable this. "
+"eForm stores referal data during submission. So you can publish same form on "
+"multiple URLs and for each URL the corresponding submission data will be "
+"shown."
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:66
+msgid "Login Message"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:67
+msgid "Please Login to edit your submission"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:76
+msgid "The add-on requires eForm - WordPress Form Builder plugin to work with."
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:76
+#: classes/class-eform-easysub-loader.php:83
+msgid "Error while activating add-on"
+msgstr ""
+
+#: classes/class-eform-easysub-loader.php:83
+msgid ""
+"This add-on requires eForm - WordPress Form Builder version 3.7.1 or greater "
+"to work."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "eForm easySubmission Add-on"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://eform.live"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Provides a bunch of functionality to handle submissions effectively"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPQuark"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpquark.com"
+msgstr ""

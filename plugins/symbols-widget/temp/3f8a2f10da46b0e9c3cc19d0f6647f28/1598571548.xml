@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>62.03</LatestPrice>
+  <Ask>62.02</Ask>
+  <Bid>62.03</Bid>
+  <Open>64.29</Open>
+  <High>64.29</High>
+  <Low>61.29</Low>
+  <LatestClose>62.03</LatestClose>
+  <LatestDate>2020-08-27T00:00:00</LatestDate>
+  <PreviousPrice>63.76</PreviousPrice>
+  <YearHigh>67.39606</YearHigh>
+  <YearLow>37.71402</YearLow>
+  <Volume>891355100</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>19161</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-1.73</Change>
+  <ChangePercent>-2.78897</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>64.29</PeriodHigh>
+  <PeriodLow>61.29</PeriodLow>
+  <CompanyName>Applied Material</CompanyName>
+</LatestDataRecord>

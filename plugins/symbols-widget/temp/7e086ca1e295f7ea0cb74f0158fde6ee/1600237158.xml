@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>410.94</LatestPrice>
+  <Ask>405.01</Ask>
+  <Bid>405.24</Bid>
+  <Open>410</Open>
+  <High>413.5</High>
+  <Low>391.0501</Low>
+  <LatestClose>410.94</LatestClose>
+  <LatestDate>2020-09-15T00:00:00</LatestDate>
+  <PreviousPrice>403.51</PreviousPrice>
+  <YearHigh>457.69</YearHigh>
+  <YearLow>62</YearLow>
+  <Volume>849561100</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>7.43</Change>
+  <ChangePercent>1.80805</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>413.5</PeriodHigh>
+  <PeriodLow>391.0501</PeriodLow>
+  <CompanyName>ZOOM VID COMMU-A</CompanyName>
+</LatestDataRecord>

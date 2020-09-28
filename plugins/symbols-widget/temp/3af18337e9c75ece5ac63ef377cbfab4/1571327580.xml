@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>35.44</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>35.27</Open>
+  <High>35.589</High>
+  <Low>35.1</Low>
+  <LatestClose>35.44</LatestClose>
+  <LatestDate>2019-10-16T00:00:00</LatestDate>
+  <PreviousPrice>35.3248</PreviousPrice>
+  <YearHigh>36.70966</YearHigh>
+  <YearLow>27.96356</YearLow>
+  <Volume>15300</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.1152</Change>
+  <ChangePercent>0.32506</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>35.589</PeriodHigh>
+  <PeriodLow>35.1</PeriodLow>
+  <CompanyName>ETFMG Drn Eco Strgy</CompanyName>
+</LatestDataRecord>

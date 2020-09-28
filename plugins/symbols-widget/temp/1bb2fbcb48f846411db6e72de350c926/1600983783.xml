@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>13.74</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>14.07</Open>
+  <High>14.165</High>
+  <Low>13.4</Low>
+  <LatestClose>13.74</LatestClose>
+  <LatestDate>2020-09-24T00:00:00</LatestDate>
+  <PreviousPrice>14.13</PreviousPrice>
+  <YearHigh>51.30125</YearHigh>
+  <YearLow>7.97</YearLow>
+  <Volume>3255060300</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>30007</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.39</Change>
+  <ChangePercent>-2.83843</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>14.165</PeriodHigh>
+  <PeriodLow>13.4</PeriodLow>
+  <CompanyName>Carnival</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>159.6</LatestPrice>
+  <Ask>159.51</Ask>
+  <Bid>159.57</Bid>
+  <Open>157.95</Open>
+  <High>159.62</High>
+  <Low>155.2</Low>
+  <LatestClose>159.6</LatestClose>
+  <LatestDate>2020-09-21T00:00:00</LatestDate>
+  <PreviousPrice>160.1</PreviousPrice>
+  <YearHigh>170.49001</YearHigh>
+  <YearLow>64.39735</YearLow>
+  <Volume>392949700</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>49424</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.5</Change>
+  <ChangePercent>-0.31328</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>159.62</PeriodHigh>
+  <PeriodLow>155.2</PeriodLow>
+  <CompanyName>Lowe's Com</CompanyName>
+</LatestDataRecord>

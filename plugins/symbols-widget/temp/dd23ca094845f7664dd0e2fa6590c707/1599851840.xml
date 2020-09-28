@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>62.87</LatestPrice>
+  <Ask>62.89</Ask>
+  <Bid>62.8</Bid>
+  <Open>62</Open>
+  <High>62.28</High>
+  <Low>60.5</Low>
+  <LatestClose>61.2</LatestClose>
+  <LatestDate>2020-09-11T15:07:00</LatestDate>
+  <PreviousPrice>61.2</PreviousPrice>
+  <YearHigh>104.17</YearHigh>
+  <YearLow>12.75</YearLow>
+  <Volume>56852528</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>1.67</Change>
+  <ChangePercent>2.65627</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>62.87</PeriodHigh>
+  <PeriodLow>61.138</PeriodLow>
+  <CompanyName>BIONTECH SP ADS</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>9.14</LatestPrice>
+  <Ask>9.13</Ask>
+  <Bid>9.14</Bid>
+  <Open>9.71</Open>
+  <High>9.81</High>
+  <Low>9.01</Low>
+  <LatestClose>9.14</LatestClose>
+  <LatestDate>2020-09-24T00:00:00</LatestDate>
+  <PreviousPrice>10.04</PreviousPrice>
+  <YearHigh>10.56</YearHigh>
+  <YearLow>2.8</YearLow>
+  <Volume>793883800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>5781</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.9</Change>
+  <ChangePercent>-9.84683</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>9.81</PeriodHigh>
+  <PeriodLow>9.01</PeriodLow>
+  <CompanyName>GameStop-A</CompanyName>
+</LatestDataRecord>

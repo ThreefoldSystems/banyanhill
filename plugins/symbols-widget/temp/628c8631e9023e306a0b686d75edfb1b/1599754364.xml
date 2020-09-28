@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>37.725</LatestPrice>
+  <Ask>37.73</Ask>
+  <Bid>37.72</Bid>
+  <Open>38.35</Open>
+  <High>38.84</High>
+  <Low>37.92</Low>
+  <LatestClose>37.95</LatestClose>
+  <LatestDate>2020-09-10T12:01:42</LatestDate>
+  <PreviousPrice>37.95</PreviousPrice>
+  <YearHigh>69.09126</YearHigh>
+  <YearLow>30.25494</YearLow>
+  <Volume>235591362</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>387256</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.225</Change>
+  <ChangePercent>-0.59642</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>38.27</PeriodHigh>
+  <PeriodLow>37.725</PeriodLow>
+  <CompanyName>Exxon Mobil</CompanyName>
+</LatestDataRecord>

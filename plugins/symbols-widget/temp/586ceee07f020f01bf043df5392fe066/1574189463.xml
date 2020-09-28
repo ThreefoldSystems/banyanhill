@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>27.08</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>27.13</Open>
+  <High>27.2497</High>
+  <Low>26.56</Low>
+  <LatestClose>27.08</LatestClose>
+  <LatestDate>2019-11-18T00:00:00</LatestDate>
+  <PreviousPrice>26.56</PreviousPrice>
+  <YearHigh>36.67537</YearHigh>
+  <YearLow>23.64</YearLow>
+  <Volume>161500</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>39495</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.52</Change>
+  <ChangePercent>1.92024</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>27.2497</PeriodHigh>
+  <PeriodLow>26.56</PeriodLow>
+  <CompanyName>VIACOM-A</CompanyName>
+</LatestDataRecord>

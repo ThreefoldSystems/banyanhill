@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>39.07</LatestPrice>
+  <Ask>39.08</Ask>
+  <Bid>39.07</Bid>
+  <Open>38.62</Open>
+  <High>39</High>
+  <Low>38.3</Low>
+  <LatestClose>38.96</LatestClose>
+  <LatestDate>2020-08-21T14:16:53</LatestDate>
+  <PreviousPrice>38.96</PreviousPrice>
+  <YearHigh>45.42</YearHigh>
+  <YearLow>22</YearLow>
+  <Volume>198891665</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.11</Change>
+  <ChangePercent>0.28155</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>39.35</PeriodHigh>
+  <PeriodLow>38.72</PeriodLow>
+  <CompanyName>Twitter</CompanyName>
+</LatestDataRecord>

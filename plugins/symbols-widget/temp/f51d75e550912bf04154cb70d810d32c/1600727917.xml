@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>461.88</LatestPrice>
+  <Ask>461.7</Ask>
+  <Bid>461.99</Bid>
+  <Open>446.82</Open>
+  <High>462.4</High>
+  <Low>446.2</Low>
+  <LatestClose>461.88</LatestClose>
+  <LatestDate>2020-09-21T00:00:00</LatestDate>
+  <PreviousPrice>453.09</PreviousPrice>
+  <YearHigh>499.69</YearHigh>
+  <YearLow>220.00999</YearLow>
+  <Volume>110373400</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>6765</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>8.79</Change>
+  <ChangePercent>1.90309</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>462.4</PeriodHigh>
+  <PeriodLow>446.2</PeriodLow>
+  <CompanyName>ServiceNow</CompanyName>
+</LatestDataRecord>

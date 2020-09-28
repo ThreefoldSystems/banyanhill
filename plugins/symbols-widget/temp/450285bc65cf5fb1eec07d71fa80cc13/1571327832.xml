@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>10.63</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>10.43</Open>
+  <High>10.65</High>
+  <Low>10.31</Low>
+  <LatestClose>10.63</LatestClose>
+  <LatestDate>2019-10-16T00:00:00</LatestDate>
+  <PreviousPrice>10.4</PreviousPrice>
+  <YearHigh>27.37</YearHigh>
+  <YearLow>8.28</YearLow>
+  <Volume>704500</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.23</Change>
+  <ChangePercent>2.16369</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>10.65</PeriodHigh>
+  <PeriodLow>10.31</PeriodLow>
+  <CompanyName>Cars.com</CompanyName>
+</LatestDataRecord>

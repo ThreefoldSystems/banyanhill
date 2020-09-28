@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>146.7719</LatestPrice>
+  <Ask>146.83</Ask>
+  <Bid>146.74</Bid>
+  <Open>144.76</Open>
+  <High>148.6</High>
+  <Low>144.76</Low>
+  <LatestClose>147.55</LatestClose>
+  <LatestDate>2020-09-10T14:06:57</LatestDate>
+  <PreviousPrice>147.55</PreviousPrice>
+  <YearHigh>154.22</YearHigh>
+  <YearLow>90.11462</YearLow>
+  <Volume>43326506</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>40449</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.7781</Change>
+  <ChangePercent>-0.53014</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>148.23</PeriodHigh>
+  <PeriodLow>146.77</PeriodLow>
+  <CompanyName>Target</CompanyName>
+</LatestDataRecord>

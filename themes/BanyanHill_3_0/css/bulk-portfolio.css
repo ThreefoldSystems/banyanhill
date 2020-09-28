@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+.portfolio-placeholder {
+    flex: 1 1;
+    text-align: left;
+}
+
+.portfolio-placeholder > p:first-of-type {
+	margin-top:20px;
+}
+
+.bulk-portfolio {
+    display: flex;
+}
+
+.portfolio-links {
+	min-width: 300px;
+}
+
+.wrapper .tab .tab-content, .wrapper > a span {
+    display: none;
+}
+
+.portfolio-links > p {
+    display: none;
+}
+
+.tab label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: #E2E2E2;
+    padding: 5px 15px;
+    margin: 0px 0px 5px 0px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;	
+}
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.bulk-container.accordion-container {
+    max-height: none !important;
+}
+
+.excerptContent span:empty {
+    display: none;
+}
+
+.model-port-menu > span {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    background-color: #E2E2E2;
+    padding: 5px 15px;
+    margin: 0px 0px 15px 0px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+}
+.model-port-menu.twf > span {
+	margin: 0px 0px 5px 0px;
+}
+
+.wrapper > .model-port-menu {
+    max-height: 37px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+	margin-bottom: 15px;
+}
+
+.wrapper > .model-port-menu > .tab {
+    max-height: 42px;
+    overflow: hidden;
+    margin-bottom: 3px;
+    transition: all 0.5s ease;
+}
+
+.wrapper > .model-port-menu.twf > .tab {
+	max-height: 27px;
+	margin-left: 0;
+    transition: max-height 0.5s ease;	
+}
+
+.model-port-menu.active, .model-port-menu.active .tab.active {
+    max-height: 600px;
+    transition: max-height 0.5s ease;
+}
+
+.model-port-menu.active > span, .model-port-menu.active .tab:hover > label, .model-port-menu.active > span, .model-port-menu > span:hover {
+    background-color: #cacaca;
+    transition: 0.2s;
+}
+
+.wrapper > .model-port-menu .tab {
+    transition: margin 0.2s ease;
+}
+
+.wrapper > .model-port-menu .tab, .wrapper > .model-port-menu .tab .tab {
+	margin-left: 10px;
+}
+
+.wrapper > .model-port-menu .tab .tab:hover, .wrapper > .model-port-menu .tab.active, .wrapper > .model-port-menu.twf.active > .tab, .wrapper > .model-port-menu.active .tab:hover {
+    margin-left: 0;
+}
+
+.wrapper > .model-port-menu .tab > span {
+    background-color: #0d3659;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    padding: 0px 15px;
+    margin: 0px 0px 5px 0px;
+    font-size: 12px;
+    cursor: pointer;
+	position: relative;
+}
+
+/*
+.wrapper > .model-port-menu .tab > span:after {
+    content: '\e62d';
+    margin: 0 0 0 5px;
+    vertical-align: top;
+    transition: .3s ease;
+    font-family: ET-Extra!important;
+    font-size: 15px;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.wrapper > .model-port-menu .tab.active > span:after {
+    top: 15px;
+    right: 10px;
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+    transform: translateY(-50%) rotate(-180deg);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    transition: .3s ease;
+}
+*/
+
+.wrapper > .model-port-menu > .tab.active span, .wrapper > .model-port-menu > .tab > span:hover {
+    background-color: #0f3149;
+}
+
+@media only screen and ( max-width:479px ) {
+	.bulk-portfolio {
+		flex-flow: column-reverse;
+	}	
+}

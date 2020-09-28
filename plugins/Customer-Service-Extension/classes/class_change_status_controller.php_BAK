@@ -1,0 +1,312 @@
+<?php
+/**
+ * Copyright (C) Threefold systems - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ */
+namespace csd_ext;
+
+include_once('class_display.php');
+include_once('class_middleware.php');
+require(__DIR__ . '/../config.php');
+
+/**
+ * Class: class_change_status_controller
+ * Description:
+ * Version:
+ * @author: Threefold Systems
+ */
+class class_change_status_controller
+{
+
+    /**
+     * @var class_display
+     */
+    protected $display_class;
+
+    /**
+     * @var class_middleware
+     */
+    protected $middleware;
+
+    /**
+     * @array $display_order
+     */
+    private $display_order;
+
+    /**
+     * @array $pause_sub_email
+     */
+    private $pause_sub_email;
+
+    /**
+     * Constructor method
+     *
+     * @method __construct
+     *
+     */
+    public function __construct ( )
+    {
+        $this->display_class = new class_display();
+        $this->middleware = class_middleware::get_instance();
+
+        $this->display_order = array(
+            'cancel_subscription',
+            'play_message',
+            'still_cancel',
+            'refund_slider'
+        );
+
+        $this->pause_sub_email = PAUSE_SUB_EMAIL;
+
+        $this->wp_actions();
+    }
+
+    /**
+     *  Set up ajax callback functions as wordpress actions
+     *
+     * @method wp_actions
+     */
+    private function wp_actions() {
+        add_action('wp_ajax_csd_ext_change_status',
+            array($this, 'csd_ext_change_status'));
+        add_action('wp_ajax_nopriv_csd_ext_change_status',
+            array($this, 'csd_ext_change_status'));
+        add_action('wp_ajax_csd_ext_pause_status',
+            array($this, 'csd_ext_pause_status'));
+        add_action('wp_ajax_nopriv_csd_ext_pause_status',
+            array($this, 'csd_ext_pause_status'));
+        add_action('wp_ajax_csd_ext_status_refund',
+            array($this, 'csd_ext_status_refund'));
+        add_action('wp_ajax_nopriv_csd_ext_status_refund',
+            array($this, 'csd_ext_status_refund'));
+    }
+
+    /**
+     * function to render views for change status flow
+     *
+     * @method csd_ext_change_status
+     *
+     */
+    public function csd_ext_change_status () {
+        $return = array();
+        $content = array();
+        if ( !empty( $_POST['data'] ) ) {
+            $data = $_POST['data'];
+            if ( !empty( $data['sub_ref'] ) ) {
+                $content['sub_ref'] = sanitize_text_field($data['sub_ref']);
+            }
+            if ( !empty( $data['auto_status'] ) ) {
+                $content['auto_renew'] = sanitize_text_field($data['auto_status']);
+            }
+            if ( !empty( $data['post_id'] ) ) {
+                $content['post_id'] = sanitize_text_field($data['post_id']);
+            }
+            if ( !empty( $data['lifetime'] ) ) {
+                $content['lifetime'] = sanitize_text_field($data['lifetime']);
+            }
+            if ( !empty( $data['pubcode'] ) ) {
+                $content['pubcode'] = sanitize_text_field($data['pubcode']);
+            }
+            if ( !empty( $data['expire'] ) ) {
+                $content['expire'] = sanitize_text_field($data['expire']);
+            }
+            if ( !empty( $data['subname'] ) ) {
+                $content['subname'] = sanitize_text_field($data['subname']);
+            }
+            if ( !empty( $data['status_flow_index'] ) ) {
+                $index = $data['status_flow_index'];
+                if ( $this->display_order[$index] === 'play_message' ) {
+
+                    //   Retrieve customer number and affliate facts to determine if the publication is frontend or backend
+                    $backend_pub =  get_post_meta( intval($content['post_id']), 'tfs_subscription_backend', true );
+                    if( !empty($backend_pub) && $backend_pub !== NULL){
+                        $return['html'] = $this->display_class->display_frontend( 'change_status/customer_services',
+                            $content );
+                        die( json_encode($return) );
+                    }
+
+                    $video_embed = '';
+                    if( !empty($content['post_id']) ) {
+                        $video_embed =  get_post_meta( intval($content['post_id']), 'tfs_subscription_cancel_video_embed', true );
+                        $video_proceed = get_post_meta( intval($content['post_id']), 'tfs_subscription_video_proceed_time', true );
+                    }
+                    if( empty($video_embed) ) {
+                        $index = $index + 2;
+                    } else {
+                        $content['video_proceed'] = $video_proceed;
+                        $content['video_embed'] = $video_embed;
+                    }
+                }
+                if ( $this->display_order[$index] === 'refund_slider' ) {
+					$backend_pub =  get_post_meta( intval($content['post_id']), 'tfs_subscription_backend', true );
+
+					if( !empty($backend_pub) && $backend_pub !== NULL){
+//						if ( isset($content['lifetime'] ) && $content['lifetime'] === 'true' ) {
+							$return['html'] = $this->display_class->display_frontend( 'change_status/customer_services',
+								$content );
+							die( json_encode($return) );
+//						}
+					}
+					
+                    if ( !empty( $content['sub_ref'] ) ) {
+                        $this->csd_ext_status_refund( $content['sub_ref'] );
+                    } else {
+                        $content['message'] = $this->middleware->core->get_language_variable('txt_csd_ext_general_error');
+                        $return['html'] = $this->display_class->display_frontend('error', $content);
+                        die( json_encode($return) );
+                    }
+                }
+                $content['status_flow_index'] = $index + 1;
+                $return['html'] = $this->display_class->display_frontend( 'change_status/' . $this->display_order[$index],
+                    $content );
+                die( json_encode($return) );
+            }
+        }
+        $content['status_flow_index'] = 1;
+        $return['html'] = $this->display_class->display_frontend( 'change_status/change_status_menu', $content );
+        die( json_encode($return) );
+    }
+
+
+
+    /**
+     * function to process pause subscription request
+     *
+     * @method csd_ext_pause_status
+     *
+     */
+    public function csd_ext_pause_status ()
+    {
+        $return = array();
+        $content = array();
+
+        if ( !empty($_POST['data']) && !empty($_POST['data']['sub_ref']) ) {
+            $subref = sanitize_text_field( $_POST['data']['sub_ref'] );
+            $this->send_email('pause', $subref);
+        }
+        $content['message'] = $this->middleware->core->get_language_variable('txt_csd_ext_general_error');
+        $return['html'] = $this->display_class->display_frontend('error', $content);
+        die( json_encode($return) );
+
+    }
+
+    /**
+     * function to process refund request
+     *
+     * @method csd_ext_status_refund
+     *
+     */
+    public function csd_ext_status_refund ($subref = null)
+    {
+        $return = array();
+        $content = array();
+        if ( empty($subref) ) {
+            $subref = ( isset( $_POST['data']['sub_ref'] ) ? sanitize_text_field( $_POST['data']['sub_ref'] ) : '' );
+        }
+        $process_cancel = $this->process_cancel($subref);
+        if ( $process_cancel === true ) {
+
+            //TODO: create customer note via MW call
+            
+            $cookie_value = 'Cancelled';
+            setcookie($subref, $cookie_value, time()+3600);
+            $return['new_status'] = $cookie_value;
+            $return['sub_ref'] = $subref;
+            $content['message'] = $this->middleware->core->get_language_variable(
+                'txt_csd_ext_cancel_status_success'
+            );
+            $return['html'] = $this->display_class->display_frontend('success', $content);
+        } else {
+            $content['message'] = $this->middleware->core->get_language_variable('txt_csd_ext_general_error');
+            $return['html'] = $this->display_class->display_frontend('error', $content);
+        }
+        die( json_encode($return) );
+    }
+
+    /**
+     * function to send emails for pause and cancel subscription requests
+     *
+     * @method send_email
+     *
+     * @param string $email_type whether this is a cancel or pause request
+     * @param string $subref the reference ID for this subscription
+     */
+    private function send_email ( $email_type, $subref ) {
+        $customer = $this->middleware->core->user->get_customer_number();
+        $customer_address = $this->middleware->core->user->get_address();
+        $customer_email = $this->middleware->core->user->_get_email();
+
+        if( !is_wp_error($customer) && !is_wp_error($customer_address) && !is_wp_error($customer_email) ) {
+            $headers = 'From: ' . $this->middleware->core->get_language_variable('txt_csd_ext_' . $email_type . '_sub_from');
+            $mail_subject = $this->middleware->core->get_language_variable('txt_csd_ext_' . $email_type . '_sub');
+            $mail_content = $this->middleware->core->get_language_variable('inp_csd_ext_' . $email_type . '_sub_text',
+                array(
+                    'customer' => $customer,
+                    'subref' => $subref,
+                    'name' => $customer_address->firstName . ' ' . $customer_address->lastName,
+                    'zip' => $customer_address->postalCode,
+                    'email' => $customer_email,
+                    'contact' => $customer_address->phoneNumber
+                ) );
+
+            $send_request = wp_mail($this->pause_sub_email, $mail_subject, $mail_content, $headers);
+
+            if ( !is_wp_error($send_request) && !empty($send_request) ) {
+                if ( $email_type === 'cancel') {
+                    return true;
+                }
+                $content['message'] = $this->middleware->core->get_language_variable(
+                    'txt_csd_ext_' . $email_type . '_status_success'
+                );
+
+                if ( $email_type == 'pause' ) {
+                    $cookie_value = 'Paused';
+                } elseif ($email_type == 'cancel' ) {
+                    $cookie_value = 'Cancelled';
+                }
+
+                if ( isset($cookie_value) ) {
+                    setcookie($subref, $cookie_value, time()+3600);
+                    $return['new_status'] = $cookie_value;
+                    $return['sub_ref'] = $subref;
+                }
+
+                $return['html'] = $this->display_class->display_frontend('success', $content);
+                die( json_encode($return) );
+            }
+        }
+    }
+
+    /**
+     * function to trigger a workflow event to cancel a subscription
+     *
+     * @method process_cancel
+     *
+     * @param string $subref the reference ID for this subscription
+     */
+    private function process_cancel ( $subref ) {
+        $customer = $this->middleware->core->user->get_customer_number();
+        $pubcode = false;
+        $subscriptions = $this->middleware->core->user->middleware_data->subscriptionsAndOrders->subscriptions;
+
+        if ( is_array($subscriptions) ) {
+            foreach ( $subscriptions as $subscription ) {
+                if ( $subscription->id->subRef === $subref ) {
+                    $pubcode = $subscription->id->item->itemNumber;
+                }
+            }
+        }
+
+        if( !is_wp_error($customer) && !empty($pubcode) && !empty($subref) ) {
+            $cancel = $this->middleware->core->mw->cancelSubscription( $pubcode, $customer, $subref );
+
+            if ( !is_wp_error($cancel) ) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+}
+$change_status_controller = new class_change_status_controller;

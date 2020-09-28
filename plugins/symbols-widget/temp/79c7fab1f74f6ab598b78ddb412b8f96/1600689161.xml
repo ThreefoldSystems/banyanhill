@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>200.39</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>202.8</Open>
+  <High>203.65</High>
+  <Low>196.25</Low>
+  <LatestClose>200.39</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>202.91</PreviousPrice>
+  <YearHigh>231.64999</YearHigh>
+  <YearLow>133.13432</YearLow>
+  <Volume>5522532600</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>272306</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-2.52</Change>
+  <ChangePercent>-1.25755</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>203.65</PeriodHigh>
+  <PeriodLow>196.25</PeriodLow>
+  <CompanyName>Microsoft</CompanyName>
+</LatestDataRecord>

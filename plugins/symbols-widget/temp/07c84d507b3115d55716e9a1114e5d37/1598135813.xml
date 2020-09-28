@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>52.32</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>52.11</Open>
+  <High>52.32</High>
+  <Low>52.11</Low>
+  <LatestClose>52.32</LatestClose>
+  <LatestDate>2020-08-21T00:00:00</LatestDate>
+  <PreviousPrice>52.11</PreviousPrice>
+  <YearHigh>52.32</YearHigh>
+  <YearLow>12.02</YearLow>
+  <Volume>451607000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>814</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.21</Change>
+  <ChangePercent>0.40138</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>52.32</PeriodHigh>
+  <PeriodLow>52.11</PeriodLow>
+  <CompanyName>Momenta Pharma</CompanyName>
+</LatestDataRecord>

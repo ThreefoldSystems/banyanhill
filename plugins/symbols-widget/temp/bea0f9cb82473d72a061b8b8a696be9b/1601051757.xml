@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>4.975</LatestPrice>
+  <Ask>4.98</Ask>
+  <Bid>4.97</Bid>
+  <Open>5.08</Open>
+  <High>5.37</High>
+  <Low>4.78</Low>
+  <LatestClose>5.2</LatestClose>
+  <LatestDate>2020-09-25T12:25:57</LatestDate>
+  <PreviousPrice>5.2</PreviousPrice>
+  <YearHigh>57.12</YearHigh>
+  <YearLow>5.17</YearLow>
+  <Volume>109160374</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.225</Change>
+  <ChangePercent>-4.52261</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>5.25</PeriodHigh>
+  <PeriodLow>4.9519</PeriodLow>
+  <CompanyName>Aurora Cannabis</CompanyName>
+</LatestDataRecord>

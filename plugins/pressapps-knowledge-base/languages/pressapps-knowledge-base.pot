@@ -1,0 +1,823 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Knowledge Base\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-29 06:50-0500\n"
+"PO-Revision-Date: 2015-04-07 18:05+0100\n"
+"Last-Translator: Nabil Kadimi <nabil@kadimi-x-no-spam-x.com>\n"
+"Language-Team: PressApps\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_n:1,2;_x:1,2c;_ex:1,2x;esc_attr__;esc_attr_e;_;"
+"gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: admin/class-pressapps-knowledge-base-admin.php:93
+msgid "Are you sure you want to reset votes for this article?"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:94
+msgid "Are you sure you want to reset votes for all articles?"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:95
+msgid "Success! Votes are now reset"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:113
+#: admin/class-pressapps-knowledge-base-admin.php:115
+#: includes/options/framework.config.php:10
+#: includes/options/framework.config.php:11
+#: includes/options/framework.config.php:63
+#: includes/options/framework.config.php:123
+#: public/lib/class-pressapps-knowledge-base-loop.php:974
+#: public/lib/class-pressapps-knowledge-base-loop.php:1026
+msgid "Knowledge Base"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:116
+msgid "Article"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:117
+msgid "Add New"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:118
+msgid "Add New Article"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:119
+msgid "Edit Article"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:120
+msgid "New Article"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:121
+msgid "View Article"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:122
+msgid "Search Articles"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:123
+msgid "No Articles found"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:124
+msgid "No Articles found in Trash"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:125
+msgid "All Articles"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:152
+#: admin/class-pressapps-knowledge-base-admin.php:163
+msgid "Categories"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:153
+#: admin/class-pressapps-knowledge-base-admin.php:469
+#: includes/options/shortcode.config.php:60
+#: includes/options/shortcode.config.php:71
+msgid "Category"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:154
+msgid "Search Categories"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:155
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:156
+msgid "Parent Category"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:157
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:158
+msgid "Edit Category"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:159
+msgid "Update Category"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:160
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:161
+msgid "New Category Name"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:178
+#: admin/class-pressapps-knowledge-base-admin.php:189
+msgid "Tags"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:179
+msgid "Tag"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:180
+msgid "Search Tags"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:181
+msgid "All Tags"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:182
+msgid "Parent Tag"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:183
+msgid "Parent Tag:"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:184
+msgid "Edit Tag"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:185
+msgid "Update Tag"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:186
+msgid "Add New Tag"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:187
+msgid "New Tag Name"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:212
+msgid "Settings"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:228
+msgid "Help"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:337
+#: admin/class-pressapps-knowledge-base-admin.php:476
+msgid "Reset"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:353
+msgid "View all categories"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:468
+#: includes/options/framework.config.php:297
+#: includes/options/shortcode.config.php:31
+msgid "Title"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:474
+#: includes/options/shortcode.config.php:33
+msgid "Likes"
+msgstr ""
+
+#: admin/class-pressapps-knowledge-base-admin.php:475
+msgid "Dislikes"
+msgstr ""
+
+#: includes/options/framework.config.php:28
+msgid "General"
+msgstr ""
+
+#: includes/options/framework.config.php:34
+msgid "Page Template"
+msgstr ""
+
+#: includes/options/framework.config.php:42
+msgid "Article Slug"
+msgstr ""
+
+#: includes/options/framework.config.php:49
+msgid "Category Slug"
+msgstr ""
+
+#: includes/options/framework.config.php:56
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/options/framework.config.php:62
+msgid "Breadcrumb Text"
+msgstr ""
+
+#: includes/options/framework.config.php:69
+msgid "Order Content"
+msgstr ""
+
+#: includes/options/framework.config.php:71
+msgid "Default Order"
+msgstr ""
+
+#: includes/options/framework.config.php:72
+msgid "Drag and Drop Reorder"
+msgstr ""
+
+#: includes/options/framework.config.php:73
+msgid "Alphabetical Order"
+msgstr ""
+
+#: includes/options/framework.config.php:85
+msgid "Main Page"
+msgstr ""
+
+#: includes/options/framework.config.php:91
+msgid "Main Knowledge Base Page"
+msgstr ""
+
+#: includes/options/framework.config.php:98
+msgid "Layout"
+msgstr ""
+
+#: includes/options/framework.config.php:109
+msgid "Columns"
+msgstr ""
+
+#: includes/options/framework.config.php:120
+msgid "Page Layout"
+msgstr ""
+
+#: includes/options/framework.config.php:126
+msgid "Main Page Content"
+msgstr ""
+
+#: includes/options/framework.config.php:127
+msgid "Horizontal Sidebar"
+msgstr ""
+
+#: includes/options/framework.config.php:130
+msgid "Enabled"
+msgstr ""
+
+#: includes/options/framework.config.php:131
+#: includes/options/framework.config.php:288
+msgid "Disabled"
+msgstr ""
+
+#: includes/options/framework.config.php:136
+msgid "Category Icon"
+msgstr ""
+
+#: includes/options/framework.config.php:142
+msgid "Category Count"
+msgstr ""
+
+#: includes/options/framework.config.php:149
+msgid "View All Link"
+msgstr ""
+
+#: includes/options/framework.config.php:155
+msgid "View All Count"
+msgstr ""
+
+#: includes/options/framework.config.php:162
+msgid "Articles Per Category"
+msgstr ""
+
+#: includes/options/framework.config.php:175
+msgid "Single Page"
+msgstr ""
+
+#: includes/options/framework.config.php:181
+msgid "Display Meta"
+msgstr ""
+
+#: includes/options/framework.config.php:199
+msgid "Table of Contents"
+msgstr ""
+
+#: includes/options/framework.config.php:205
+msgid "Scroll Offset from Top"
+msgstr ""
+
+#: includes/options/framework.config.php:213
+msgid "Heading Selectors"
+msgstr ""
+
+#: includes/options/framework.config.php:216
+msgid "Comma separated selectors"
+msgstr ""
+
+#: includes/options/framework.config.php:221
+msgid "Comments"
+msgstr ""
+
+#: includes/options/framework.config.php:222
+msgid "Requires theme support"
+msgstr ""
+
+#: includes/options/framework.config.php:227
+#: public/lib/class-pressapps-knowledge-base-helper.php:314
+msgid "Related Articles"
+msgstr ""
+
+#: includes/options/framework.config.php:238
+#: public/lib/class-pressapps-knowledge-base-loop.php:978
+msgid "Search"
+msgstr ""
+
+#: includes/options/framework.config.php:255
+msgid "Placeholder"
+msgstr ""
+
+#: includes/options/framework.config.php:261
+msgid "Live Search"
+msgstr ""
+
+#: includes/options/framework.config.php:267
+msgid "Display Categories in Results"
+msgstr ""
+
+#: includes/options/framework.config.php:280
+#: includes/options/framework.config.php:286
+msgid "Voting"
+msgstr ""
+
+#: includes/options/framework.config.php:289
+msgid "Public Voting"
+msgstr ""
+
+#: includes/options/framework.config.php:290
+msgid "Logged In Users Only"
+msgstr ""
+
+#: includes/options/framework.config.php:304
+msgid "Thanks"
+msgstr ""
+
+#: includes/options/framework.config.php:311
+msgid "Vote Up Icon"
+msgstr ""
+
+#: includes/options/framework.config.php:318
+msgid "Vote Down Icon"
+msgstr ""
+
+#: includes/options/framework.config.php:325
+#: includes/options/framework.config.php:326
+msgid "Reset All Votes"
+msgstr ""
+
+#: includes/options/framework.config.php:337
+msgid "Styling"
+msgstr ""
+
+#: includes/options/framework.config.php:343
+msgid "Accent Color"
+msgstr ""
+
+#: includes/options/framework.config.php:349
+msgid "Primary Color"
+msgstr ""
+
+#: includes/options/framework.config.php:355
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/options/framework.config.php:357
+msgid "Breadcrumbs, article meta, view all links."
+msgstr ""
+
+#: includes/options/framework.config.php:362
+msgid "Category Icon Size"
+msgstr ""
+
+#: includes/options/framework.config.php:365
+msgid "Applies to boxed layout only."
+msgstr ""
+
+#: includes/options/framework.config.php:371
+msgid "Category Font Size"
+msgstr ""
+
+#: includes/options/framework.config.php:378
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/framework.config.php:379
+msgid "You can add and override CSS styles here."
+msgstr ""
+
+#: includes/options/framework.config.php:389
+msgid "Extensions"
+msgstr ""
+
+#: includes/options/framework.config.php:395
+msgid ""
+"WordPress theme build specificaly for knowledge base plugin - <a href="
+"\"https://www.dropbox.com/sh/wzu11s39lcab9o1/AAAQArij-w9X74mCzAN4Efeea?"
+"dl=0\" target=\"_blank\">download</a>"
+msgstr ""
+
+#: includes/options/shortcode.config.php:12
+msgid "KNOWLEDGE BASE"
+msgstr ""
+
+#: includes/options/shortcode.config.php:16
+msgid "Articles"
+msgstr ""
+
+#: includes/options/shortcode.config.php:21
+msgid "Number of Articles"
+msgstr ""
+
+#: includes/options/shortcode.config.php:27
+msgid "Order By"
+msgstr ""
+
+#: includes/options/shortcode.config.php:30
+msgid "Date"
+msgstr ""
+
+#: includes/options/shortcode.config.php:32
+msgid "Reorder"
+msgstr ""
+
+#: includes/options/shortcode.config.php:39
+msgid "Order"
+msgstr ""
+
+#: includes/options/shortcode.config.php:42
+msgid "Ascending"
+msgstr ""
+
+#: includes/options/shortcode.config.php:43
+msgid "Descending"
+msgstr ""
+
+#: includes/options/shortcode.config.php:51
+msgid "None"
+msgstr ""
+
+#: includes/options/shortcode.config.php:52
+msgid "Filter by Category"
+msgstr ""
+
+#: includes/options/shortcode.config.php:53
+msgid "Filter by Tag"
+msgstr ""
+
+#: includes/options/shortcode.config.php:82
+msgid "Display Title"
+msgstr ""
+
+#: includes/options/taxonomy.config.php:16
+msgid "Icon"
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:197
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:202
+msgid "Default options restored."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:221
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:405
+msgid "Settings saved."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Save Changes"
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:406
+msgid "Saving..."
+msgstr ""
+
+#: includes/skelet/classes/framework.class.php:407
+msgid "Restore"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:126
+msgid "CONFIG"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:132
+msgid "USAGE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:138
+msgid "VALUE"
+msgstr ""
+
+#: includes/skelet/classes/options.class.php:214
+#, php-format
+msgid "You are editing language: ( <strong>%s</strong> )"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:83
+#: includes/skelet/classes/shortcode.class.php:91
+#: includes/skelet/fields/textarea/textarea.php:29
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:93
+msgid "Select a shortcode"
+msgstr ""
+
+#: includes/skelet/classes/shortcode.class.php:109
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/skelet/fields/background/background.php:32
+#: includes/skelet/fields/background/background.php:33
+#: includes/skelet/fields/upload/upload.php:25
+#: includes/skelet/fields/upload/upload.php:26
+msgid "Upload"
+msgstr ""
+
+#: includes/skelet/fields/background/background.php:34
+#: includes/skelet/fields/upload/upload.php:27
+msgid "Use Image"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:22
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:23
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:28
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:29
+msgid "or"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:30
+msgid "!!! Reset All Options !!!"
+msgstr ""
+
+#: includes/skelet/fields/backup/backup.php:31
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:23
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:24
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/skelet/fields/gallery/gallery.php:25
+msgid "Clear"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:23
+msgid "Adding"
+msgstr ""
+
+#: includes/skelet/fields/group/group.php:45
+#: includes/skelet/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:27
+#: includes/skelet/functions/actions.php:55
+msgid "Add Icon"
+msgstr ""
+
+#: includes/skelet/fields/icon/icon.php:28
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/skelet/fields/image/image.php:24
+msgid "Add Image"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:26
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/sorter/sorter.php:27
+msgid "Disabled Modules"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "on"
+msgstr ""
+
+#: includes/skelet/fields/switcher/switcher.php:22
+msgid "off"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:75
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:81
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/skelet/fields/typography/typography.php:109
+#: includes/skelet/functions/actions.php:30
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/skelet/functions/actions.php:56
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/skelet/functions/actions.php:57
+msgid "Loading..."
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:50
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:610
+msgid "Select media"
+msgstr ""
+
+#: includes/skelet/functions/helpers.php:659
+#, php-format
+msgid "The option type <code>%s</code> is not yet implemented"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/skelet/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:10
+msgid "How can we help?"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:11
+msgid ""
+"Find answers in documentation or contact us through standard or premium "
+"support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:18
+msgid "Help Center"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:19
+msgid ""
+"Learn how to install, setup, use and customize our products in "
+"documentation"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:25
+msgid "Standard Support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:26
+msgid ""
+"Envato market purchases include six month of complimentary standard "
+"support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:32
+msgid "Premium Support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:33
+msgid ""
+"Let us help you with rapid response times and advanced technical support"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:38
+msgid "Looking for more?"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:43
+msgid "Customization"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:44
+msgid ""
+"Do you want to customise our product and don not have the time or skills, "
+"get in touch"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:50
+msgid "Let us know what you think"
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:51
+msgid ""
+"Your feedback helps us build better products and create better experience "
+"for you. Please share you your thoughts and ideas."
+msgstr ""
+
+#: includes/skelet/pressapps/template/help.php:52
+msgid "Feedback"
+msgstr ""
+
+#: includes/skelet/pressapps/template/products.php:9
+msgid "Products By PressApps"
+msgstr ""
+
+#: pressapps-knowledge-base.php:21
+msgid ""
+"The minimum PHP version required for this plugin is 5.3.0 Please upgrade "
+"the PHP version or contact your hosting provider to activate the plugin."
+msgstr ""
+
+#: public/class-pressapps-knowledge-base-public.php:227
+msgid "Knowledge Base Main Horizontal"
+msgstr ""
+
+#: public/class-pressapps-knowledge-base-public.php:314
+#, php-format
+msgid "Search Result for \"%s\""
+msgstr ""
+
+#: public/class-pressapps-knowledge-base-public.php:322
+msgid "KB Archive"
+msgstr ""
+
+#: public/class-pressapps-knowledge-base-widgets.php:37
+msgid "Knowledge Base page not set under PressApps > Knowledge Base"
+msgstr ""
+
+#: public/class-pressapps-knowledge-base-widgets.php:306
+msgid "There are no knowledge base articles."
+msgstr ""
+
+#: public/lib/class-pressapps-knowledge-base-helper.php:205
+#, php-format
+msgid "%s person found this helpful"
+msgid_plural "%s people found this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/lib/class-pressapps-knowledge-base-helper.php:206
+#, php-format
+msgid "%s person did not find this helpful"
+msgid_plural "%s people did not find this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/lib/class-pressapps-knowledge-base-helper.php:207
+msgid "I found this helpful"
+msgstr ""
+
+#: public/lib/class-pressapps-knowledge-base-helper.php:208
+msgid "I did not find this helpful"
+msgstr ""
+
+#: public/lib/class-pressapps-knowledge-base-loop.php:227
+msgid "in"
+msgstr ""
+
+#: public/lib/class-pressapps-knowledge-base-loop.php:303
+msgid "Tags:"
+msgstr ""
+
+#: public/partials/knowledgebase-category.php:36
+#: public/partials/knowledgebase-category.php:52
+msgid "View All"
+msgstr ""
+
+#: public/partials/knowledgebase-search.php:30
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: public/partials/knowledgebase-single.php:52
+#, php-format
+msgid "Last Updated: %s ago"
+msgstr ""

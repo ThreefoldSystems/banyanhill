@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>76.97</LatestPrice>
+  <Ask>76.97</Ask>
+  <Bid>76.96</Bid>
+  <Open>78.365</Open>
+  <High>78.79</High>
+  <Low>75.27</Low>
+  <LatestClose>77.7</LatestClose>
+  <LatestDate>2020-09-23T11:16:12</LatestDate>
+  <PreviousPrice>77.7</PreviousPrice>
+  <YearHigh>92.18</YearHigh>
+  <YearLow>28.23</YearLow>
+  <Volume>196582763</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>2700</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.73</Change>
+  <ChangePercent>-0.94842</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>77.81</PeriodHigh>
+  <PeriodLow>76.52</PeriodLow>
+  <CompanyName>Advanced Micro D</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>187.25</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>193.49</Open>
+  <High>200.73</High>
+  <Low>185</Low>
+  <LatestClose>187.25</LatestClose>
+  <LatestDate>2020-09-23T00:00:00</LatestDate>
+  <PreviousPrice>193.79</PreviousPrice>
+  <YearHigh>193.78999</YearHigh>
+  <YearLow>63.84</YearLow>
+  <Volume>1857037000</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-6.54</Change>
+  <ChangePercent>-3.49266</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>200.73</PeriodHigh>
+  <PeriodLow>185</PeriodLow>
+  <CompanyName>ROKU-A</CompanyName>
+</LatestDataRecord>

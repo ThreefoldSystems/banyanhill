@@ -1,0 +1,19 @@
+<?php
+?>
+<div class='csd_ext_notice_msg_modal tfs_css_success_msg_modal'></div>
+<div class="tfs_css_error_msg_modal_content">
+	<div class="tfs_css_input_section">
+    <?php if ( !empty( $auto_status ) && strtolower($auto_status) === 'on' ) { ?>
+        <p>
+            Your <?php echo !empty( $subname ) ? '<em>' . $subname . '</em>' : ''; ?> subscription currently comes with our automatic-renewal feature. This feature ensures that you will never miss an issue and allows you to lock in our lowest available price each year.
+        </p>
+    <?php } else { ?>
+        <p>
+            Your <?php echo !empty( $subname ) ? '<em>' . $subname . '</em>' : ''; ?> subscription is available to upgrade to our automatic-renewal program. This feature ensures that you will never miss an issue and allows you to lock in our lowest available price each year.
+        </p>
+    <?php } ?>
+
+		<p>If you would like to change the automatic-renewal status of <?php echo !empty( $subname ) ? '<em>' . $subname . '</em>' : ''; ?>, please call our customer service team at 866-584-4096 and one of our phone agents will assist you.</p>
+		<p>We are available between 8 am and 8 pm ET, Monday through Friday.</p>
+	</div>
+</div>

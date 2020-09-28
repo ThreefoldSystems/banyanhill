@@ -1,0 +1,601 @@
+.bh-sua-cta-button-wrapper-container {
+  width: 50%;
+  float: left;
+  padding-bottom:23px;
+}
+
+.bh-sua-cta-button-wrapper-indiv {
+  width: 50%;
+  float: left;
+}
+
+.bh-sua-cta-button {
+  width: 100%;
+}
+
+.bh-sua-cta-desc {
+  margin-bottom: 15px;
+}
+
+#bh-sua .bh-sua-cta-input-action {
+  background-color: #ff6600;
+  color: white;
+}
+
+.bh-sua-cta-input-action-email {
+  width: 70%;
+  float: left;
+}
+
+#bh-sua-cta-input-action-email {
+  margin-bottom: 23px;
+}
+
+.bh-sua-cta-input-action {
+  width: 29%;
+  float: right;
+}
+
+#bh-sua-cta-input-action {
+  margin-bottom: 23px;
+}
+
+#bh-sua-cta-error {
+  margin-bottom: 23px;
+}
+
+.bh-sua-cta-error {
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.bh-sua-cta-thank-you {
+  text-align: center;
+  margin-bottom:23px;
+}
+
+#bh-register {
+  width:60%;
+}
+
+#bh-register .bh-register-form {
+  width:100%;
+  margin-bottom:15px;
+}
+
+#bh-register-action {
+  background-color: #113752;
+  float:right;
+  color:white;
+}
+
+#bh-register-error {
+  width:100%;
+  border:1px solid red;
+  padding:15px;
+  display:none;
+  color:red;
+  margin-bottom:10px;
+}
+
+.bh-watchlist-container {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 1px solid #d3d3d3;
+  background-color: white;
+}
+
+.bh-watchlist-wrapper {
+  border: 1px solid #d3d3d3;
+  background-color: white;
+  min-height: 250px;
+  overflow-y: auto;
+  max-height: 450px;
+}
+
+.bh-watchlist-header {
+  text-align: center;
+}
+
+.bh-watchlist-sub-header {
+  text-align: center;
+}
+
+.bh-watchlist-action {
+  text-align: center;
+  margin-top:10px;
+}
+
+.bh-watchlist-action button {
+  background-color: #fb7701;
+  color: white;
+}
+
+.bh-watchlist-action span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bh-watchlist-symbol-name-label {
+  font-weight: 800;
+}
+
+.bh-watchlist-symbol {
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0px 4px 5px rgba(0,0,0,0.05);
+  padding: 15px 20px;
+  background: rgba(255,255,255,1);
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+
+.bh-watchlist-symbol-name {
+  width: 55%;
+}
+
+.bh-watchlist-symbol-info {
+  width: 45%;
+  text-align: right;
+  position: relative;
+  padding-right: 25px;
+}
+
+.bh-watchlist-symbol-info-price {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.bh-watchlist-symbol-info-stats-negative {
+  color:red;
+}
+
+.bh-watchlist-symbol-info-stats-negative:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 30px solid green;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border-top: 30px solid red;
+  border-bottom: none;
+}
+
+.bh-watchlist-symbol-info-stats-positive {
+  color: green;
+}
+
+.bh-watchlist-symbol-info-stats-positive::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 30px solid green;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.bh-watchlist-add-wrapper {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.bh-watchlist-modal-symbol {
+  max-width: 100%;
+  height: 75%;
+  width: auto;
+  border-radius: 0px;
+}
+
+.bh-watchlist-modal-symbol .close-modal {
+  width: 45px;
+  height: 45px;
+  top: 15px;
+  right: 15px;
+}
+
+.bh-modal-watchlist-row {
+  display: flex;
+}
+
+.bh-modal-watchlist-col-search {
+  flex: 75%;
+}
+
+.bh-modal-watchlist-col-search input {
+  width: 99%;
+  background: none;
+  border-bottom: 1px solid #d3d3d3;
+  padding-left: 0px;
+  font-size: 24px;
+}
+
+.bh-modal-watchlist-col-action {
+  flex: 25%;
+}
+
+.bh-modal-watchlist-col-action button {
+  font-size: 24px;
+  margin-left: 5%;
+  width: 95%;
+  background-color: #197337;
+  color: white;
+  border-radius: 0px;
+}
+
+#bh-search-header-label {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.bh-modal-watchlist-subheader-label {
+  font-size: 18px;
+  color: #197337;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bh-modal-watchlist-content {
+  margin-top: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 80%;
+  margin-top: 5px;
+}
+
+.bh-modal-watchlist {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  cursor: pointer;
+}
+
+.bh-modal-watchlist-wrapper {
+  cursor: pointer;
+}
+
+.bh-modal-watchlist-name {
+  flex: 70%;
+}
+
+.bh-modal-watchlist-info {
+  flex: 30%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.bh-modal-watchlist-name-label {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.bh-modal-watchlist-info-price {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.bh-modal-watchlist-symbols > .ui-autocomplete {
+  position: inherit!important;
+  top: inherit!important;
+  left: inherit!important;
+  display: block!important;
+  width: 100%!important;
+  border: 0px!important;
+}
+
+.bh-modal-watchlist-info-stats-negative {
+  color:red;
+}
+
+.bh-modal-watchlist-info-stats-positive {
+  color:green;
+}
+
+@media (min-width:320px)  {
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+  .bh-watchlist-modal-symbol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:480px)  {
+  /* smartphones, Android phones, landscape iPhone */
+  .bh-watchlist-modal-symbol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:600px)  {
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+  .bh-watchlist-modal-symbol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:801px)  {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  .bh-watchlist-modal-symbol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .bh-watchlist-modal-symbol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */
+  .bh-watchlist-modal-symbol {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.bh-lds-dual-ring {
+  display: block;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+}
+
+.bh-lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 4px;
+  border-radius: 50%;
+  border: 6px solid #197337;
+  border-color: #197337 transparent #197337 transparent;
+  animation: bh-lds-dual-ring 1.2s linear infinite;
+}
+@keyframes bh-lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bh-watchlist-modal-symbol > .bh-modal-header {
+  border-bottom: 0px;
+}
+
+.bh-watchlist-modal-symbol.modal {
+    background: rgba(255,255,255,0.9);
+    font-family: "Open Sans", sans-serif;
+}
+
+.bh-watchlist-modal-symbol {
+    padding-top: 80px;
+}
+
+.bh-modal-watchlist-col-search {
+    flex: 85%;
+}
+
+.bh-modal-watchlist-col-action {
+    flex: 20%;
+}
+
+input#site-search-symbol {
+    border-bottom: 2px solid #197337;
+    border-radius: 0;
+    width: 100%;
+    padding: 0 0 5px 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(0,0,0,.5);
+}
+
+input#site-search-symbol::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,0.2);
+  text-transform: none;
+}
+input#site-search-symbol::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0,0.2);
+  text-transform: none;
+}
+input#site-search-symbol:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0,0.1);
+  text-transform: none;
+}
+input#site-search-symbol:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0,0.1);
+  text-transform: none;
+}
+
+input.bh-watchlist-search-symbol {
+    border-bottom: 2px solid #197337;
+    border-radius: 0;
+    width: 100%;
+    padding: 0 0 5px 0;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(0,0,0,.5);
+}
+
+input.bh-watchlist-search-symbol::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: rgba(0,0,0,0.2);
+  text-transform: none;
+}
+input.bh-watchlist-search-symbol::-moz-placeholder { /* Firefox 19+ */
+  color: rgba(0,0,0,0.2);
+  text-transform: none;
+}
+input.bh-watchlist-search-symbol:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(0,0,0,0.1);
+  text-transform: none;
+}
+input.bh-watchlist-search-symbol:-moz-placeholder { /* Firefox 18- */
+  color: rgba(0,0,0,0.1);
+  text-transform: none;
+}
+
+.bh-modal-watchlist-col-action button {
+    font-weight: 500;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #197337;
+    color: #197337;
+    font-size: 20px;
+}
+
+.bh-modal-watchlist-col-action button:hover {background-color: #197337;color: #fff;}
+
+.bh-modal-watchlist-content {
+    margin-top: 30px;
+}
+
+.bh-modal-watchlist-subheader-label {
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #197337;
+    margin: 10px 20px 0 0;
+    font-weight: 600;
+}
+
+.bh-modal-watchlist-symbols > .ui-autocomplete {
+    padding: 0;
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist {
+    margin: 10px 0 10px 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.05);
+    padding: 15px 20px;
+    background: rgba(255,255,255,1);
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-name-label {font-weight: 500;}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-company-label {
+    color: rgba(0,0,0,0.6);
+}
+
+.bh-modal-watchlist-symbols, #bh-modal-watchlist-stories, #bh-modal-watchlist-stories-partners {
+    margin: 20px 0 40px 0;
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-info-stats-positive:after, .bh-modal-watchlist-symbols .bh-modal-watchlist-info-stats-negative:after {content: '';display: block;width: 0;height: 0;border-left: 10px solid transparent;border-right: 10px solid transparent;border-bottom: 30px solid green;position: absolute;top: 50%;right: 0;transform: translateY(-50%);}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-info {
+    position: relative;
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-info-price, .bh-modal-watchlist-symbols .bh-modal-watchlist-info-stats {padding-right: 25px;}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-info-stats-negative:after {
+    border-top: 30px solid red;
+    border-bottom: none;
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-info-price {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.bh-modal-watchlist-symbols .bh-modal-watchlist-wrapper {
+    margin: 10px 20px 10px 0;
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px rgba(0,0,0,0.05);
+    padding: 15px 20px;
+    background: rgba(255,255,255,1);
+}
+
+/* not sure what this element is */
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.bh-watchlist-symbol-first {
+  text-align:center;
+  padding:25px;
+  cursor: pointer;
+}
+
+.bh-watchlist-symbol-first span {
+  text-decoration: underline;
+}
+
+.bh-watchlist-symbol-info-graph-wrapper .symbols.long {
+
+}
+
+.bh-watchlist-symbol-info-graph {
+  display: none;
+  border-top: 1px solid rgba(0,0,0,0.05);
+  padding-top: 5px;
+}
+
+.bh-watchlist-symbol-info-graph-container {
+  width: 100%;
+}
+
+.bh-watchlist-symbol-arrow-container {
+  position:relative;
+}
+
+.bh-watchlist-symbol-action-overlay-container {
+  position: relative;
+}
+
+.bh-watchlist-symbol-action-overlay {
+  border-left: 1px solid #d3d3d3;
+  border-top: 1px solid #d3d3d3;
+  padding-left: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: -15px;
+  left: -115px;
+  font-size: 12px;
+  line-height: 18px;
+  width: 200px;
+  display: none;
+}
+
+.bh-watchlist-symbol-remove {
+  cursor: pointer;
+  color: white;
+  border: 1px solid #AEAEAE;
+  border-radius: 30px;
+  background: #605F61;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 0px;
+  padding: 11px 3px;
+  float: right;
+}
+
+.bh-watchlist-symbol-remove:before{
+  content: "×";
+}
+
+input.bh-watchlist-search-symbol:focus {
+    background-color: transparent;
+}

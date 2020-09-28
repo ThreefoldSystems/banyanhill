@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>105.169</LatestPrice>
+  <Ask>104.98</Ask>
+  <Bid>104.96</Bid>
+  <Open>110.4</Open>
+  <High>110.88</High>
+  <Low>106.09</Low>
+  <LatestClose>106.84</LatestClose>
+  <LatestDate>2020-09-21T19:01:00</LatestDate>
+  <PreviousPrice>106.84</PreviousPrice>
+  <YearHigh>134.17999</YearHigh>
+  <YearLow>53.88535</YearLow>
+  <Volume>21586310</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>429437</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-1.671</Change>
+  <ChangePercent>-1.58887</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>105.169</PeriodHigh>
+  <PeriodLow>105.169</PeriodLow>
+  <CompanyName>Apple</CompanyName>
+</LatestDataRecord>

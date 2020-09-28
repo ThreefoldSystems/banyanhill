@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>45.42</LatestPrice>
+  <Ask>45.44</Ask>
+  <Bid>45.43</Bid>
+  <Open>46.2</Open>
+  <High>46.38</High>
+  <Low>45.245</Low>
+  <LatestClose>45.36</LatestClose>
+  <LatestDate>2020-09-24T11:01:15</LatestDate>
+  <PreviousPrice>45.36</PreviousPrice>
+  <YearHigh>46.91343</YearHigh>
+  <YearLow>32.22851</YearLow>
+  <Volume>33801843</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>114157</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.06</Change>
+  <ChangePercent>0.1321</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>45.55</PeriodHigh>
+  <PeriodLow>44.925</PeriodLow>
+  <CompanyName>Comcast -  -A-</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>3095.13</LatestPrice>
+  <Ask>3097.28</Ask>
+  <Bid>3098.55</Bid>
+  <Open>3054.86</Open>
+  <High>3101.54</High>
+  <Low>2999</Low>
+  <LatestClose>3095.13</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>3019.79</PreviousPrice>
+  <YearHigh>3531.44995</YearHigh>
+  <YearLow>1676.60999</YearLow>
+  <Volume>461520200</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>136544</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>75.34</Change>
+  <ChangePercent>2.43415</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>3101.54</PeriodHigh>
+  <PeriodLow>2999</PeriodLow>
+  <CompanyName>Amazon.Com</CompanyName>
+</LatestDataRecord>

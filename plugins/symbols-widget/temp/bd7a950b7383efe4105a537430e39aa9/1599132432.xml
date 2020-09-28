@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>20.71</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>21.1817</Open>
+  <High>21.55</High>
+  <Low>20.35</Low>
+  <LatestClose>20.71</LatestClose>
+  <LatestDate>2020-09-02T00:00:00</LatestDate>
+  <PreviousPrice>21</PreviousPrice>
+  <YearHigh>21.35</YearHigh>
+  <YearLow>15.4</YearLow>
+  <Volume>433021300</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.29</Change>
+  <ChangePercent>-1.40029</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>21.55</PeriodHigh>
+  <PeriodLow>20.35</PeriodLow>
+  <CompanyName>RACKSPACE TECH</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>85.17</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>85.16</Open>
+  <High>85.48</High>
+  <Low>85.07</Low>
+  <LatestClose>85.17</LatestClose>
+  <LatestDate>2020-09-23T00:00:00</LatestDate>
+  <PreviousPrice>85.05</PreviousPrice>
+  <YearHigh>85.53</YearHigh>
+  <YearLow>9.4</YearLow>
+  <Volume>513078800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>518</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>0.12</Change>
+  <ChangePercent>0.14089</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>85.48</PeriodHigh>
+  <PeriodLow>85.07</PeriodLow>
+  <CompanyName>Immunomedics</CompanyName>
+</LatestDataRecord>

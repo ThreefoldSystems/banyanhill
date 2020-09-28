@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>29</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>28.86</Open>
+  <High>29.22</High>
+  <Low>28.56</Low>
+  <LatestClose>29</LatestClose>
+  <LatestDate>2020-09-25T00:00:00</LatestDate>
+  <PreviousPrice>29.11</PreviousPrice>
+  <YearHigh>37.84731</YearHigh>
+  <YearLow>16.8</YearLow>
+  <Volume>935041900</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>50341</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.11</Change>
+  <ChangePercent>-0.37931</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>29.22</PeriodHigh>
+  <PeriodLow>28.56</PeriodLow>
+  <CompanyName>General Motors</CompanyName>
+</LatestDataRecord>

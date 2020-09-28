@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>16.98</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>17.92</Open>
+  <High>18.69</High>
+  <Low>16.58</Low>
+  <LatestClose>16.98</LatestClose>
+  <LatestDate>2020-09-22T00:00:00</LatestDate>
+  <PreviousPrice>17.69</PreviousPrice>
+  <YearHigh>31.69</YearHigh>
+  <YearLow>1.97</YearLow>
+  <Volume>2699211700</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>423</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.71</Change>
+  <ChangePercent>-4.18139</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>18.69</PeriodHigh>
+  <PeriodLow>16.58</PeriodLow>
+  <CompanyName>Inovio Pharmactc</CompanyName>
+</LatestDataRecord>

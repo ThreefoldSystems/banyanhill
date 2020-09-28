@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>207.21</LatestPrice>
+  <Ask>207.27</Ask>
+  <Bid>207.45</Bid>
+  <Open>209.19</Open>
+  <High>210.21</High>
+  <Low>206.66</Low>
+  <LatestClose>207.21</LatestClose>
+  <LatestDate>2020-08-19T00:00:00</LatestDate>
+  <PreviousPrice>208.33</PreviousPrice>
+  <YearHigh>230.2</YearHigh>
+  <YearLow>162.13</YearLow>
+  <Volume>583126800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>264987</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-1.12</Change>
+  <ChangePercent>-0.54051</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>210.21</PeriodHigh>
+  <PeriodLow>206.66</PeriodLow>
+  <CompanyName>Berkshire Hath-B</CompanyName>
+</LatestDataRecord>

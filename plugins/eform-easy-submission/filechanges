@@ -1,0 +1,8 @@
+changelog
+classes/class-eform-easysub-direct-submission.php
+classes/class-eform-easysub-loader.php
+eform-easysub.php
+static/admin/js/eform-easysub-tinymce-plugin.js
+static/admin/js/eform-easysub-tinymce-plugin.min.js
+static/admin/js/eform-easysub-tinymce-plugin.min.js.map
+translations/eform-es.pot

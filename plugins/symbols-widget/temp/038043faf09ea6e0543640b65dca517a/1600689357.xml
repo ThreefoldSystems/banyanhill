@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>487.57</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>503.75</Open>
+  <High>505.3</High>
+  <Low>479.55</Low>
+  <LatestClose>487.57</LatestClose>
+  <LatestDate>2020-09-18T00:00:00</LatestDate>
+  <PreviousPrice>498.54</PreviousPrice>
+  <YearHigh>573.85999</YearHigh>
+  <YearLow>171.40123</YearLow>
+  <Volume>1746154800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>9084</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-10.97</Change>
+  <ChangePercent>-2.24993</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>505.3</PeriodHigh>
+  <PeriodLow>479.55</PeriodLow>
+  <CompanyName>NVIDIA</CompanyName>
+</LatestDataRecord>

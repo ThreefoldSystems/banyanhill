@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>82.72</LatestPrice>
+  <Ask>NaN</Ask>
+  <Bid>NaN</Bid>
+  <Open>80.06</Open>
+  <High>83.065</High>
+  <Low>79.79</Low>
+  <LatestClose>82.72</LatestClose>
+  <LatestDate>2020-08-25T00:00:00</LatestDate>
+  <PreviousPrice>78.68</PreviousPrice>
+  <YearHigh>95.69872</YearHigh>
+  <YearLow>55.7104</YearLow>
+  <Volume>1765952100</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>56858</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>4.04</Change>
+  <ChangePercent>4.88395</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>83.065</PeriodHigh>
+  <PeriodLow>79.79</PeriodLow>
+  <CompanyName>Starbucks</CompanyName>
+</LatestDataRecord>
