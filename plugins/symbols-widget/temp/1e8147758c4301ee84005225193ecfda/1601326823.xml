@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>19.3</LatestPrice>
+  <Ask>19.3</Ask>
+  <Bid>19.29</Bid>
+  <Open>19.52</Open>
+  <High>20.98</High>
+  <Low>18.82</Low>
+  <LatestClose>19.46</LatestClose>
+  <LatestDate>2020-09-28T16:16:08</LatestDate>
+  <PreviousPrice>19.46</PreviousPrice>
+  <YearHigh>79.73</YearHigh>
+  <YearLow>10.21</YearLow>
+  <Volume>1297976984</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>-0.16</Change>
+  <ChangePercent>-0.82902</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NASDAQ</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>19.8321</PeriodHigh>
+  <PeriodLow>17.92</PeriodLow>
+  <CompanyName>NIKOLA</CompanyName>
+</LatestDataRecord>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
+  <HasIntraday>false</HasIntraday>
+  <LatestPrice>20.51</LatestPrice>
+  <Ask>20.51</Ask>
+  <Bid>20.53</Bid>
+  <Open>18.29</Open>
+  <High>20.78</High>
+  <Low>18.1</Low>
+  <LatestClose>20.51</LatestClose>
+  <LatestDate>2020-09-28T00:00:00</LatestDate>
+  <PreviousPrice>16.43</PreviousPrice>
+  <YearHigh>37.35</YearHigh>
+  <YearLow>7.22</YearLow>
+  <Volume>5457171800</Volume>
+  <DivRate>NaN</DivRate>
+  <MarketCap>NaN</MarketCap>
+  <PERatio>NaN</PERatio>
+  <Shares>NaN</Shares>
+  <Tick>NaN</Tick>
+  <Change>4.08</Change>
+  <ChangePercent>19.89274</ChangePercent>
+  <AskSize>NaN</AskSize>
+  <BidSize>NaN</BidSize>
+  <Yield>NaN</Yield>
+  <ExDivDate>0001-01-01T00:00:00</ExDivDate>
+  <Exchange>NYSE</Exchange>
+  <EPS>NaN</EPS>
+  <PeriodHigh>20.78</PeriodHigh>
+  <PeriodLow>18.1</PeriodLow>
+  <CompanyName>Virgin Galactic</CompanyName>
+</LatestDataRecord>
