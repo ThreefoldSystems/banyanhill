@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
-  <HasIntraday>false</HasIntraday>
-  <LatestPrice>342.58</LatestPrice>
-  <Ask>NaN</Ask>
-  <Bid>NaN</Bid>
+  <HasIntraday>true</HasIntraday>
+  <LatestPrice>348.7303</LatestPrice>
+  <Ask>348.76</Ask>
+  <Bid>348.64</Bid>
   <Open>340.74</Open>
   <High>343.77</High>
   <Low>335.36</Low>
   <LatestClose>342.58</LatestClose>
-  <LatestDate>2020-09-25T00:00:00</LatestDate>
-  <PreviousPrice>347</PreviousPrice>
+  <LatestDate>2020-09-28T14:36:11</LatestDate>
+  <PreviousPrice>342.58</PreviousPrice>
   <YearHigh>358.85999</YearHigh>
   <YearLow>278.61282</YearLow>
-  <Volume>733849200</Volume>
+  <Volume>85673450</Volume>
   <DivRate>NaN</DivRate>
   <MarketCap>51612</MarketCap>
   <PERatio>NaN</PERatio>
   <Shares>NaN</Shares>
   <Tick>NaN</Tick>
-  <Change>-4.42</Change>
-  <ChangePercent>-1.29021</ChangePercent>
+  <Change>6.1503</Change>
+  <ChangePercent>1.76363</ChangePercent>
   <AskSize>NaN</AskSize>
   <BidSize>NaN</BidSize>
   <Yield>NaN</Yield>
   <ExDivDate>0001-01-01T00:00:00</ExDivDate>
   <Exchange>NASDAQ</Exchange>
   <EPS>NaN</EPS>
-  <PeriodHigh>343.77</PeriodHigh>
-  <PeriodLow>335.36</PeriodLow>
+  <PeriodHigh>349.235</PeriodHigh>
+  <PeriodLow>343.225</PeriodLow>
   <CompanyName>Costco Whsl</CompanyName>
 </LatestDataRecord>

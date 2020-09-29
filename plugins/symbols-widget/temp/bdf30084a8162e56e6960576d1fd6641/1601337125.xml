@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LatestDataRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://api.rightwaytrader.com/">
   <HasIntraday>false</HasIntraday>
-  <LatestPrice>59.8</LatestPrice>
-  <Ask>59.81</Ask>
-  <Bid>59.82</Bid>
-  <Open>59.27</Open>
-  <High>59.99</High>
-  <Low>58.96</Low>
-  <LatestClose>59.8</LatestClose>
-  <LatestDate>2020-09-25T00:00:00</LatestDate>
-  <PreviousPrice>59.3</PreviousPrice>
+  <LatestPrice>59.58</LatestPrice>
+  <Ask>59.57</Ask>
+  <Bid>59.58</Bid>
+  <Open>60.03</Open>
+  <High>60.54</High>
+  <Low>59.47</Low>
+  <LatestClose>59.58</LatestClose>
+  <LatestDate>2020-09-28T00:00:00</LatestDate>
+  <PreviousPrice>59.8</PreviousPrice>
   <YearHigh>60.94</YearHigh>
   <YearLow>39.44506</YearLow>
-  <Volume>937187500</Volume>
+  <Volume>934955000</Volume>
   <DivRate>NaN</DivRate>
   <MarketCap>151844</MarketCap>
   <PERatio>NaN</PERatio>
   <Shares>NaN</Shares>
   <Tick>NaN</Tick>
-  <Change>0.5</Change>
-  <ChangePercent>0.83612</ChangePercent>
+  <Change>-0.22</Change>
+  <ChangePercent>-0.36925</ChangePercent>
   <AskSize>NaN</AskSize>
   <BidSize>NaN</BidSize>
   <Yield>NaN</Yield>
   <ExDivDate>0001-01-01T00:00:00</ExDivDate>
   <Exchange>NYSE</Exchange>
   <EPS>NaN</EPS>
-  <PeriodHigh>59.99</PeriodHigh>
-  <PeriodLow>58.96</PeriodLow>
+  <PeriodHigh>60.54</PeriodHigh>
+  <PeriodLow>59.47</PeriodLow>
   <CompanyName>Oracle</CompanyName>
 </LatestDataRecord>
