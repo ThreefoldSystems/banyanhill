@@ -12,6 +12,21 @@
 	}
 	add_filter('get_the_archive_title', 'remove_category_text_from_archive_title');
 
+	function servisbot_bcc()
+	{
+		$content = "First Name: {$_POST['first_name']}\r\n";
+		$content .= "Last Name: {$_POST['last_name']}\r\n";
+		$content .= "Email: {$_POST['email']}\r\n";
+		$content .= "Subscription: {$_POST['subscription']}\r\n";
+		$content .= "Reason: {$_POST['reason']}\r\n";
+		$content .= "Message: {$_POST['message']}";
+
+		wp_mail('cancel@threefoldservisbot.com', 'ServisBot', $content, []);
+		exit;
+	}
+	add_action('wp_ajax_servisbot_bcc', 'servisbot_bcc');
+	add_action('wp_ajax_nopriv_servisbot_bcc', 'servisbot_bcc');
+
 	add_action( 'rest_api_init', 'bh_rest_api_init_block_list');
 	function bh_rest_api_init_block_list() {
 		$path = strtok($_SERVER['REQUEST_URI'], '?');
@@ -1714,7 +1729,7 @@
 	// Author signup box
 	function tfs_bh_author_signup_box( $user ) {
 		// If the user has the "author" role
-		if ( in_array( 'author', (array) $user->roles ) OR in_array( 'administrator', (array) $user->roles ) OR in_array( 'editor', (array) $user->roles ) ) {
+		if ( in_array( 'author', (array) $user->roles ) or in_array( 'administrator', (array) $user->roles ) or in_array( 'editor', (array) $user->roles ) ) {
 			$wp_editor_settings = array(
 				'textarea_rows' => 10,
 			);
@@ -1975,9 +1990,9 @@
 	 * Modified version of post_author_meta_box().
 	 * Fixes slow Query when checking database
 	 *
-	 * @global int $user_ID
-	 *
 	 * @param object $post
+	 *@global int $user_ID
+	 *
 	 */
 	function wpse_post_author_meta_box( $post ) {
 		global $user_ID;
