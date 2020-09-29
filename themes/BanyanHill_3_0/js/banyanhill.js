@@ -1,3 +1,24 @@
+jQuery(document).on('nfFormReady', function() {
+    jQuery(document).on('click', '#nf-field-10', function () {
+        if (['mail@extremefortunes.pubsvs.com', 'customercare@profitsunlimited.pubsvs.com', 'mail@truemomentum.pubsvs.com'].indexOf(jQuery('#nf-field-15').val()) !== -1) {
+            jQuery.ajax({
+                'type': 'post',
+                'url': admin_ajax_url,
+                'dataType': 'json',
+                'data': {
+                    'action': 'servisbot_bcc',
+                    'first_name': jQuery('#nf-field-6').val(),
+                    'last_name': jQuery('#nf-field-14').val(),
+                    'email': jQuery('#nf-field-7').val(),
+                    'subscription': jQuery('select[name="nf-field-15"] option:selected').html(),
+                    'reason': jQuery('select[name="nf-field-16"] option:selected').html(),
+                    'message': jQuery('#nf-field-8').val()
+                }
+            });
+        }
+    });
+});
+
 jQuery( document ).ready( function() {
     if ( jQuery( '#mw-ajax-login-modal').length ) {
         jQuery( '#respond .must-log-in a' ).click(function( event ) {
